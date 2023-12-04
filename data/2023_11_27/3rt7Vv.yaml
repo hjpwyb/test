@@ -86,282 +86,3536 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"type":"vless","name":"20231007.2.yokike.top_1","server":"sp.canmy777.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_2","server":"1.xiaoxing.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_3","server":"1.xieqiu.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_4","server":"zoo-videos.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_5","server":"111.ka7809.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_6","server":"112.sab.cn.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_7","server":"123456.jiefeng.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_8","server":"abcdcddkdiydjj.bgka.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_9","server":"2.1818.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_10","server":"cdn.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_11","server":"bbs.gaoduanwaiwei.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_12","server":"auto.akb48g.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_13","server":"ali-hk.skhesi.wuda.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_14","server":"a2.hh.887733.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_15","server":"8443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_16","server":"666.pztvdiao.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_17","server":"5.nettentacle123.win","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_18","server":"333.666999.world","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_19","server":"2083.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_20","server":"2.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_21","server":"cdn-oracle-kr.027520.best","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_22","server":"cover.mac2win.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_23","server":"chinacdn.dynv6.net","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_24","server":"cfip.36du.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_25","server":"cf1.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_26","server":"cf.yumy.gay","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_27","server":"cf.startry88.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_28","server":"cf.hexsen.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_29","server":"cf-cdn.tiktokcloud.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_30","server":"cdn.shanggan.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_31","server":"cdn.yh-iot.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_32","server":"blog.tjdata.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_33","server":"904019.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_34","server":"123tyy.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_35","server":"2095.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_36","server":"chat.1up1.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_37","server":"cf.dhxtry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_38","server":"2052.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_39","server":"1.achen.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_40","server":"443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_41","server":"hk.cloudflarest.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_42","server":"auto.ccccdn.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_43","server":"clash.ip.mengj.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_44","server":"cftest5.feiyu001.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_45","server":"blog.icook.tw","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_46","server":"999696.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_47","server":"1.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_48","server":"arc.naipao.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_49","server":"9bzknqk.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231007.2.yokike.top_50","server":"2087.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231007.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231007.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_1","server":"1.xiaoxing.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_2","server":"1.xieqiu.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_3","server":"ru01.nttkk.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_4","server":"111.ka7809.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_5","server":"zoo-videos.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_6","server":"123456.jiefeng.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_7","server":"112.sab.cn.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_8","server":"2.1818.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_9","server":"abcdcddkdiydjj.bgka.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_10","server":"cf.yumy.gay","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_11","server":"2.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_12","server":"bbs.gaoduanwaiwei.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_13","server":"auto.akb48g.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_14","server":"ali-hk.skhesi.wuda.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_15","server":"a2.hh.887733.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_16","server":"8443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_17","server":"666.pztvdiao.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_18","server":"5.nettentacle123.win","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_19","server":"333.666999.world","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_20","server":"2083.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_21","server":"cover.mac2win.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_22","server":"chinacdn.dynv6.net","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_23","server":"cfip.36du.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_24","server":"cf1.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_25","server":"cf.startry88.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_26","server":"cf.hexsen.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_27","server":"cf-cdn.tiktokcloud.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_28","server":"cdn.shanggan.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_29","server":"cdn.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_30","server":"blog.tjdata.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_31","server":"904019.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_32","server":"123tyy.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_33","server":"2095.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_34","server":"chat.1up1.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_35","server":"cf.dhxtry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_36","server":"2052.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_37","server":"1.achen.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_38","server":"443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_39","server":"cdn-oracle-kr.027520.best","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_40","server":"auto.ccccdn.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_41","server":"clash.ip.mengj.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_42","server":"cftest5.feiyu001.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_43","server":"blog.icook.tw","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_44","server":"999696.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_45","server":"1.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_46","server":"arc.naipao.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_47","server":"9bzknqk.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_48","server":"2087.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231008.icook.hk_49","server":"cdn.yh-iot.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231008.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231008.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_1","server":"jp.anxray.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_2","server":"1.xiaoxing.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_3","server":"1.xieqiu.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_4","server":"111.ka7809.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_5","server":"123456.jiefeng.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_6","server":"2.1818.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_7","server":"zoo-videos.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_8","server":"2.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_9","server":"112.sab.cn.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_10","server":"2083.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_11","server":"abcdcddkdiydjj.bgka.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_12","server":"cf.yumy.gay","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_13","server":"drei.bgka.me","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_14","server":"index1.xxm3u8.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_15","server":"ali-hk.skhesi.wuda.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_16","server":"a2.hh.887733.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_17","server":"8443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_18","server":"666.pztvdiao.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_19","server":"5.nettentacle123.win","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_20","server":"333.666999.world","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_21","server":"cfip.36du.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_22","server":"cf1.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_23","server":"cf.startry88.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_24","server":"cf.hexsen.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_25","server":"cf-cdn.tiktokcloud.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_26","server":"cdn.shanggan.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_27","server":"cdn.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_28","server":"bbs.gaoduanwaiwei.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_29","server":"auto.akb48g.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_30","server":"123tyy.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_31","server":"2095.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_32","server":"chat.1up1.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_33","server":"cf.dhxtry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_34","server":"2052.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_35","server":"1.achen.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_36","server":"443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_37","server":"cdn-oracle-kr.027520.best","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_38","server":"cover.mac2win.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_39","server":"chinacdn.dynv6.net","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_40","server":"cftest5.feiyu001.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_41","server":"blog.icook.tw","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_42","server":"999696.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_43","server":"1.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_44","server":"arc.naipao.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_45","server":"9bzknqk.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_46","server":"2087.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_47","server":"cdn.yh-iot.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_48","server":"blog.tjdata.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_49","server":"904019.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_50","server":"jp.cloudflarest.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_51","server":"jp03.nttkk.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_52","server":"hk-8443.cmliussss.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_53","server":"hk08.yscard.gq","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_54","server":"hk.ipx2001.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_55","server":"d.561326.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_56","server":"githubcf.startry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_57","server":"hk.cloudflarest.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_58","server":"auto.ccccdn.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231009.shaweb35.workers.dev_59","server":"clash.ip.mengj.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231009.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231009.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_1","server":"jp.anxray.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_2","server":"sp.canmy777.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_3","server":"1.xiaoxing.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_4","server":"1.xieqiu.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_5","server":"111.ka7809.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_6","server":"zoo-videos.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_7","server":"ru01.nttkk.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_8","server":"123456.jiefeng.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_9","server":"112.sab.cn.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_10","server":"2.1818.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_11","server":"abcdcddkdiydjj.bgka.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_12","server":"cf.yumy.gay","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_13","server":"drei.bgka.me","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_14","server":"index1.xxm3u8.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_15","server":"8443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_16","server":"666.pztvdiao.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_17","server":"5.nettentacle123.win","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_18","server":"333.666999.world","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_19","server":"2083.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_20","server":"2.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_21","server":"cf.startry88.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_22","server":"cf.hexsen.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_23","server":"cf-cdn.tiktokcloud.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_24","server":"cdn.shanggan.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_25","server":"cdn.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_26","server":"bbs.gaoduanwaiwei.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_27","server":"auto.akb48g.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_28","server":"ali-hk.skhesi.wuda.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_29","server":"a2.hh.887733.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_30","server":"chat.1up1.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_31","server":"cf.dhxtry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_32","server":"2052.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_33","server":"1.achen.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_34","server":"443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_35","server":"cdn-oracle-kr.027520.best","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_36","server":"cover.mac2win.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_37","server":"chinacdn.dynv6.net","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_38","server":"cfip.36du.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_39","server":"cf1.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_40","server":"999696.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_41","server":"1.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_42","server":"arc.naipao.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_43","server":"9bzknqk.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_44","server":"2087.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_45","server":"cdn.yh-iot.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_46","server":"blog.tjdata.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_47","server":"904019.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_48","server":"123tyy.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_49","server":"2095.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_50","server":"hk-8443.cmliussss.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_51","server":"hk08.yscard.gq","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_52","server":"hk.ipx2001.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_53","server":"d.561326.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_54","server":"githubcf.startry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_55","server":"hk.cloudflarest.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_56","server":"auto.ccccdn.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_57","server":"clash.ip.mengj.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_58","server":"cftest5.feiyu001.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231030.qq.foxfred.com_59","server":"blog.icook.tw","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231030.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231030.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_1","server":"ddd.hpone.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_2","server":"1.xiaoxing.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_3","server":"1.xieqiu.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_4","server":"111.ka7809.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_5","server":"zoo-videos.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_6","server":"ru01.nttkk.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_7","server":"123456.jiefeng.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_8","server":"112.sab.cn.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_9","server":"hkcf.sky2005.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_10","server":"2.1818.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_11","server":"abcdcddkdiydjj.bgka.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_12","server":"cf.yumy.gay","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_13","server":"drei.bgka.me","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_14","server":"2.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_15","server":"2083.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_16","server":"a2.hh.887733.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_17","server":"8443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_18","server":"666.pztvdiao.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_19","server":"5.nettentacle123.win","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_20","server":"333.666999.world","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_21","server":"cf1.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_22","server":"cf.startry88.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_23","server":"cf.hexsen.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_24","server":"cf-cdn.tiktokcloud.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_25","server":"cdn.shanggan.pp.ua","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_26","server":"cdn.eryayun.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_27","server":"bbs.gaoduanwaiwei.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_28","server":"auto.akb48g.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_29","server":"ali-hk.skhesi.wuda.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_30","server":"2095.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_31","server":"chat.1up1.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_32","server":"cf.dhxtry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_33","server":"2052.zhangs121.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_34","server":"1.achen.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_35","server":"443.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_36","server":"cdn-oracle-kr.027520.best","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_37","server":"cover.mac2win.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_38","server":"chinacdn.dynv6.net","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_39","server":"cfip.36du.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_40","server":"blog.icook.tw","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_41","server":"999696.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_42","server":"1.yokike.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_43","server":"arc.naipao.eu.org","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_44","server":"9bzknqk.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_45","server":"2087.woaiguyu1314.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_46","server":"cdn.yh-iot.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_47","server":"blog.tjdata.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_48","server":"904019.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_49","server":"123tyy.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_50","server":"jp03.nttkk.com","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_51","server":"hk-8443.cmliussss.top","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_52","server":"hk08.yscard.gq","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_53","server":"hk.ipx2001.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_54","server":"d.561326.site","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_55","server":"githubcf.startry.free.hr","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_56","server":"hk.cloudflarest.link","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_57","server":"auto.ccccdn.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_58","server":"clash.ip.mengj.tk","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
-  - {"type":"vless","name":"20231031.shaweb35.workers.dev_59","server":"cftest5.feiyu001.xyz","port":80,"uuid":"35772279-82ca-44bf-a438-aaeb0aa6ff33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"20231031.shaweb35.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"20231031.shaweb35.workers.dev"}}}
+  - name: 20231007.2.yokike.top_1
+    type: vless
+    server: sp.canmy777.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_2
+    type: vless
+    server: 1.xiaoxing.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_3
+    type: vless
+    server: 1.xieqiu.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_4
+    type: vless
+    server: zoo-videos.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_5
+    type: vless
+    server: 111.ka7809.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_6
+    type: vless
+    server: 112.sab.cn.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_7
+    type: vless
+    server: 123456.jiefeng.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_8
+    type: vless
+    server: abcdcddkdiydjj.bgka.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_9
+    type: vless
+    server: 2.1818.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_10
+    type: vless
+    server: cdn.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_11
+    type: vless
+    server: bbs.gaoduanwaiwei.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_12
+    type: vless
+    server: auto.akb48g.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_13
+    type: vless
+    server: ali-hk.skhesi.wuda.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_14
+    type: vless
+    server: a2.hh.887733.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_15
+    type: vless
+    server: 8443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_16
+    type: vless
+    server: 666.pztvdiao.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_17
+    type: vless
+    server: 5.nettentacle123.win
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_18
+    type: vless
+    server: 333.666999.world
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_19
+    type: vless
+    server: 2083.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_20
+    type: vless
+    server: 2.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_21
+    type: vless
+    server: cdn-oracle-kr.027520.best
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_22
+    type: vless
+    server: cover.mac2win.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_23
+    type: vless
+    server: chinacdn.dynv6.net
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_24
+    type: vless
+    server: cfip.36du.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_25
+    type: vless
+    server: cf1.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_26
+    type: vless
+    server: cf.yumy.gay
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_27
+    type: vless
+    server: cf.startry88.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_28
+    type: vless
+    server: cf.hexsen.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_29
+    type: vless
+    server: cf-cdn.tiktokcloud.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_30
+    type: vless
+    server: cdn.shanggan.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_31
+    type: vless
+    server: cdn.yh-iot.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_32
+    type: vless
+    server: blog.tjdata.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_33
+    type: vless
+    server: 904019.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_34
+    type: vless
+    server: 123tyy.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_35
+    type: vless
+    server: 2095.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_36
+    type: vless
+    server: chat.1up1.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_37
+    type: vless
+    server: cf.dhxtry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_38
+    type: vless
+    server: 2052.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_39
+    type: vless
+    server: 1.achen.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_40
+    type: vless
+    server: 443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_41
+    type: vless
+    server: hk.cloudflarest.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_42
+    type: vless
+    server: auto.ccccdn.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_43
+    type: vless
+    server: clash.ip.mengj.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_44
+    type: vless
+    server: cftest5.feiyu001.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_45
+    type: vless
+    server: blog.icook.tw
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_46
+    type: vless
+    server: 999696.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_47
+    type: vless
+    server: 1.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_48
+    type: vless
+    server: arc.naipao.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_49
+    type: vless
+    server: 9bzknqk.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231007.2.yokike.top_50
+    type: vless
+    server: 2087.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231007.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231007.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_1
+    type: vless
+    server: 1.xiaoxing.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_2
+    type: vless
+    server: 1.xieqiu.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_3
+    type: vless
+    server: ru01.nttkk.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_4
+    type: vless
+    server: 111.ka7809.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_5
+    type: vless
+    server: zoo-videos.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_6
+    type: vless
+    server: 123456.jiefeng.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_7
+    type: vless
+    server: 112.sab.cn.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_8
+    type: vless
+    server: 2.1818.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_9
+    type: vless
+    server: abcdcddkdiydjj.bgka.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_10
+    type: vless
+    server: cf.yumy.gay
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_11
+    type: vless
+    server: 2.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_12
+    type: vless
+    server: bbs.gaoduanwaiwei.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_13
+    type: vless
+    server: auto.akb48g.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_14
+    type: vless
+    server: ali-hk.skhesi.wuda.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_15
+    type: vless
+    server: a2.hh.887733.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_16
+    type: vless
+    server: 8443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_17
+    type: vless
+    server: 666.pztvdiao.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_18
+    type: vless
+    server: 5.nettentacle123.win
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_19
+    type: vless
+    server: 333.666999.world
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_20
+    type: vless
+    server: 2083.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_21
+    type: vless
+    server: cover.mac2win.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_22
+    type: vless
+    server: chinacdn.dynv6.net
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_23
+    type: vless
+    server: cfip.36du.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_24
+    type: vless
+    server: cf1.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_25
+    type: vless
+    server: cf.startry88.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_26
+    type: vless
+    server: cf.hexsen.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_27
+    type: vless
+    server: cf-cdn.tiktokcloud.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_28
+    type: vless
+    server: cdn.shanggan.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_29
+    type: vless
+    server: cdn.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_30
+    type: vless
+    server: blog.tjdata.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_31
+    type: vless
+    server: 904019.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_32
+    type: vless
+    server: 123tyy.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_33
+    type: vless
+    server: 2095.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_34
+    type: vless
+    server: chat.1up1.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_35
+    type: vless
+    server: cf.dhxtry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_36
+    type: vless
+    server: 2052.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_37
+    type: vless
+    server: 1.achen.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_38
+    type: vless
+    server: 443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_39
+    type: vless
+    server: cdn-oracle-kr.027520.best
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_40
+    type: vless
+    server: auto.ccccdn.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_41
+    type: vless
+    server: clash.ip.mengj.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_42
+    type: vless
+    server: cftest5.feiyu001.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_43
+    type: vless
+    server: blog.icook.tw
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_44
+    type: vless
+    server: 999696.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_45
+    type: vless
+    server: 1.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_46
+    type: vless
+    server: arc.naipao.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_47
+    type: vless
+    server: 9bzknqk.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_48
+    type: vless
+    server: 2087.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231008.icook.hk_49
+    type: vless
+    server: cdn.yh-iot.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231008.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231008.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_1
+    type: vless
+    server: jp.anxray.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_2
+    type: vless
+    server: 1.xiaoxing.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_3
+    type: vless
+    server: 1.xieqiu.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_4
+    type: vless
+    server: 111.ka7809.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_5
+    type: vless
+    server: 123456.jiefeng.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_6
+    type: vless
+    server: 2.1818.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_7
+    type: vless
+    server: zoo-videos.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_8
+    type: vless
+    server: 2.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_9
+    type: vless
+    server: 112.sab.cn.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_10
+    type: vless
+    server: 2083.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_11
+    type: vless
+    server: abcdcddkdiydjj.bgka.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_12
+    type: vless
+    server: cf.yumy.gay
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_13
+    type: vless
+    server: drei.bgka.me
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_14
+    type: vless
+    server: index1.xxm3u8.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_15
+    type: vless
+    server: ali-hk.skhesi.wuda.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_16
+    type: vless
+    server: a2.hh.887733.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_17
+    type: vless
+    server: 8443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_18
+    type: vless
+    server: 666.pztvdiao.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_19
+    type: vless
+    server: 5.nettentacle123.win
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_20
+    type: vless
+    server: 333.666999.world
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_21
+    type: vless
+    server: cfip.36du.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_22
+    type: vless
+    server: cf1.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_23
+    type: vless
+    server: cf.startry88.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_24
+    type: vless
+    server: cf.hexsen.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_25
+    type: vless
+    server: cf-cdn.tiktokcloud.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_26
+    type: vless
+    server: cdn.shanggan.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_27
+    type: vless
+    server: cdn.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_28
+    type: vless
+    server: bbs.gaoduanwaiwei.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_29
+    type: vless
+    server: auto.akb48g.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_30
+    type: vless
+    server: 123tyy.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_31
+    type: vless
+    server: 2095.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_32
+    type: vless
+    server: chat.1up1.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_33
+    type: vless
+    server: cf.dhxtry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_34
+    type: vless
+    server: 2052.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_35
+    type: vless
+    server: 1.achen.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_36
+    type: vless
+    server: 443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_37
+    type: vless
+    server: cdn-oracle-kr.027520.best
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_38
+    type: vless
+    server: cover.mac2win.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_39
+    type: vless
+    server: chinacdn.dynv6.net
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_40
+    type: vless
+    server: cftest5.feiyu001.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_41
+    type: vless
+    server: blog.icook.tw
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_42
+    type: vless
+    server: 999696.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_43
+    type: vless
+    server: 1.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_44
+    type: vless
+    server: arc.naipao.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_45
+    type: vless
+    server: 9bzknqk.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_46
+    type: vless
+    server: 2087.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_47
+    type: vless
+    server: cdn.yh-iot.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_48
+    type: vless
+    server: blog.tjdata.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_49
+    type: vless
+    server: 904019.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_50
+    type: vless
+    server: jp.cloudflarest.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_51
+    type: vless
+    server: jp03.nttkk.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_52
+    type: vless
+    server: hk-8443.cmliussss.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_53
+    type: vless
+    server: hk08.yscard.gq
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_54
+    type: vless
+    server: hk.ipx2001.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_55
+    type: vless
+    server: d.561326.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_56
+    type: vless
+    server: githubcf.startry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_57
+    type: vless
+    server: hk.cloudflarest.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_58
+    type: vless
+    server: auto.ccccdn.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231009.shaweb35.workers.dev_59
+    type: vless
+    server: clash.ip.mengj.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231009.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231009.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231030.qq.foxfred.com_1
+    type: vless
+    server: jp.anxray.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_2
+    type: vless
+    server: sp.canmy777.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_3
+    type: vless
+    server: 1.xiaoxing.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_4
+    type: vless
+    server: 1.xieqiu.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_5
+    type: vless
+    server: 111.ka7809.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_6
+    type: vless
+    server: zoo-videos.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_7
+    type: vless
+    server: ru01.nttkk.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_8
+    type: vless
+    server: 123456.jiefeng.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_9
+    type: vless
+    server: 112.sab.cn.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_10
+    type: vless
+    server: 2.1818.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_11
+    type: vless
+    server: abcdcddkdiydjj.bgka.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_12
+    type: vless
+    server: cf.yumy.gay
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_13
+    type: vless
+    server: drei.bgka.me
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_14
+    type: vless
+    server: index1.xxm3u8.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_15
+    type: vless
+    server: 8443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_16
+    type: vless
+    server: 666.pztvdiao.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_17
+    type: vless
+    server: 5.nettentacle123.win
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_18
+    type: vless
+    server: 333.666999.world
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_19
+    type: vless
+    server: 2083.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_20
+    type: vless
+    server: 2.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_21
+    type: vless
+    server: cf.startry88.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_22
+    type: vless
+    server: cf.hexsen.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_23
+    type: vless
+    server: cf-cdn.tiktokcloud.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_24
+    type: vless
+    server: cdn.shanggan.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_25
+    type: vless
+    server: cdn.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_26
+    type: vless
+    server: bbs.gaoduanwaiwei.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_27
+    type: vless
+    server: auto.akb48g.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_28
+    type: vless
+    server: ali-hk.skhesi.wuda.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_29
+    type: vless
+    server: a2.hh.887733.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_30
+    type: vless
+    server: chat.1up1.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_31
+    type: vless
+    server: cf.dhxtry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_32
+    type: vless
+    server: 2052.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_33
+    type: vless
+    server: 1.achen.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_34
+    type: vless
+    server: 443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_35
+    type: vless
+    server: cdn-oracle-kr.027520.best
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_36
+    type: vless
+    server: cover.mac2win.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_37
+    type: vless
+    server: chinacdn.dynv6.net
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_38
+    type: vless
+    server: cfip.36du.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_39
+    type: vless
+    server: cf1.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_40
+    type: vless
+    server: 999696.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_41
+    type: vless
+    server: 1.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_42
+    type: vless
+    server: arc.naipao.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_43
+    type: vless
+    server: 9bzknqk.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_44
+    type: vless
+    server: 2087.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_45
+    type: vless
+    server: cdn.yh-iot.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_46
+    type: vless
+    server: blog.tjdata.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_47
+    type: vless
+    server: 904019.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_48
+    type: vless
+    server: 123tyy.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_49
+    type: vless
+    server: 2095.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_50
+    type: vless
+    server: hk-8443.cmliussss.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_51
+    type: vless
+    server: hk08.yscard.gq
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_52
+    type: vless
+    server: hk.ipx2001.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_53
+    type: vless
+    server: d.561326.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_54
+    type: vless
+    server: githubcf.startry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_55
+    type: vless
+    server: hk.cloudflarest.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_56
+    type: vless
+    server: auto.ccccdn.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_57
+    type: vless
+    server: clash.ip.mengj.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_58
+    type: vless
+    server: cftest5.feiyu001.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231030.qq.foxfred.com_59
+    type: vless
+    server: blog.icook.tw
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231030.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231030.shaweb35.workers.dev
+  - name: 20231031.shaweb35.workers.dev_1
+    type: vless
+    server: ddd.hpone.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_2
+    type: vless
+    server: 1.xiaoxing.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_3
+    type: vless
+    server: 1.xieqiu.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_4
+    type: vless
+    server: 111.ka7809.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_5
+    type: vless
+    server: zoo-videos.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_6
+    type: vless
+    server: ru01.nttkk.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_7
+    type: vless
+    server: 123456.jiefeng.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_8
+    type: vless
+    server: 112.sab.cn.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_9
+    type: vless
+    server: hkcf.sky2005.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_10
+    type: vless
+    server: 2.1818.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_11
+    type: vless
+    server: abcdcddkdiydjj.bgka.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_12
+    type: vless
+    server: cf.yumy.gay
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_13
+    type: vless
+    server: drei.bgka.me
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_14
+    type: vless
+    server: 2.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_15
+    type: vless
+    server: 2083.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_16
+    type: vless
+    server: a2.hh.887733.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_17
+    type: vless
+    server: 8443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_18
+    type: vless
+    server: 666.pztvdiao.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_19
+    type: vless
+    server: 5.nettentacle123.win
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_20
+    type: vless
+    server: 333.666999.world
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_21
+    type: vless
+    server: cf1.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_22
+    type: vless
+    server: cf.startry88.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_23
+    type: vless
+    server: cf.hexsen.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_24
+    type: vless
+    server: cf-cdn.tiktokcloud.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_25
+    type: vless
+    server: cdn.shanggan.pp.ua
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_26
+    type: vless
+    server: cdn.eryayun.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_27
+    type: vless
+    server: bbs.gaoduanwaiwei.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_28
+    type: vless
+    server: auto.akb48g.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_29
+    type: vless
+    server: ali-hk.skhesi.wuda.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_30
+    type: vless
+    server: 2095.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_31
+    type: vless
+    server: chat.1up1.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_32
+    type: vless
+    server: cf.dhxtry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_33
+    type: vless
+    server: 2052.zhangs121.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_34
+    type: vless
+    server: 1.achen.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_35
+    type: vless
+    server: 443.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_36
+    type: vless
+    server: cdn-oracle-kr.027520.best
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_37
+    type: vless
+    server: cover.mac2win.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_38
+    type: vless
+    server: chinacdn.dynv6.net
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_39
+    type: vless
+    server: cfip.36du.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_40
+    type: vless
+    server: blog.icook.tw
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_41
+    type: vless
+    server: 999696.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_42
+    type: vless
+    server: 1.yokike.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_43
+    type: vless
+    server: arc.naipao.eu.org
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_44
+    type: vless
+    server: 9bzknqk.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_45
+    type: vless
+    server: 2087.woaiguyu1314.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_46
+    type: vless
+    server: cdn.yh-iot.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_47
+    type: vless
+    server: blog.tjdata.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_48
+    type: vless
+    server: 904019.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_49
+    type: vless
+    server: 123tyy.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_50
+    type: vless
+    server: jp03.nttkk.com
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_51
+    type: vless
+    server: hk-8443.cmliussss.top
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_52
+    type: vless
+    server: hk08.yscard.gq
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_53
+    type: vless
+    server: hk.ipx2001.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_54
+    type: vless
+    server: d.561326.site
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_55
+    type: vless
+    server: githubcf.startry.free.hr
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_56
+    type: vless
+    server: hk.cloudflarest.link
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_57
+    type: vless
+    server: auto.ccccdn.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_58
+    type: vless
+    server: clash.ip.mengj.tk
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+  - name: 20231031.shaweb35.workers.dev_59
+    type: vless
+    server: cftest5.feiyu001.xyz
+    port: 80
+    uuid: 35772279-82ca-44bf-a438-aaeb0aa6ff33
+    tls: false
+    servername: 20231031.shaweb35.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: 20231031.shaweb35.workers.dev
+    client-fingerprint: randomized
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
