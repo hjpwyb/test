@@ -308,8 +308,7 @@ carib311西川,https://fc.maa1808.com/h/kmqtdxwjmz/kmqtdxwjmz.m3u8
 carib337西川,https://fc.maa1808.com/d/uuvombzvvi/uuvombzvvi.m3u8
 carib339姬川,https://fc.maa1808.com/d/pqkdrfftpw/pqkdrfftpw.m3u8
 carib363西川,https://fc.maa1808.com/b/ravxbmkthk/ravxbmkthk.m3u8
-carib375姬川,https://fc.maa1808.com/n/qwpcalfmpo/qwpcalfmpo.m3u8
-carib375姬川,https://fc.maa1808.com/f/lpeelnsfwx/lpeelnsfwx.m3u8
+carib375姬川,https://fc.maa1808.com/n/qwpcalfmpo/qwpcalfmpo.m3u8#https://fc.maa1808.com/f/lpeelnsfwx/lpeelnsfwx.m3u8
 carib420丘笑,https://fc.maa1808.com/d/qzwkkcltyl/qzwkkcltyl.m3u8
 carib431北川,https://fc.maa1808.com/d/jestvkpubl/jestvkpubl.m3u8
 carib433姬川,https://fc.maa1808.com/g/vphfeljbji/vphfeljbji.m3u8
@@ -326,8 +325,7 @@ carib563爱莉,https://fc.maa1808.com/d/qscypinana/qscypinana.m3u8
 carib563七濑,https://fc.maa1808.com/f/pwkupqugdm/pwkupqugdm.m3u8
 carib589立花琉莉,https://fc.maa1808.com/n/okjmiigqsr/okjmiigqsr.m3u8
 carib639神田,https://fc.maa1808.com/n/rpsqccbbug/rpsqccbbug.m3u8
-carib665姬川,https://fc.maa1808.com/c/mrpmoinlmj/mrpmoinlmj.m3u8
-carib665姬川,https://fc.maa1808.com/g/oplnohpsmh/oplnohpsmh.m3u8
+carib665姬川,https://fc.maa1808.com/c/mrpmoinlmj/mrpmoinlmj.m3u8#https://fc.maa1808.com/g/oplnohpsmh/oplnohpsmh.m3u8
 carib674杏奈,https://fc.maa1808.com/g/jtlmkjipqv/jtlmkjipqv.m3u8
 carib675神田,https://fc.maa1808.com/c/qmlpmophlh/qmlpmophlh.m3u8
 carib710神田,https://fc.maa1808.com/h/mesmnroogk/mesmnroogk.m3u8
@@ -511,8 +509,7 @@ fsdss-057椎名,https://v1.ckcdn2001.com/video/m3u8/2020/07/19/b4962236/index.m3
 fsdss-065美乃,https://t4s.cdn2020.com/video/m3u8/2020/07/27/1620a218/index.m3u8
 fsdss-067杏羽,https://t4s.cdn2020.com/video/m3u8/2020/08/18/2b50b935/index.m3u8
 fsdss-069橋本,https://t4s.cdn2020.com/video/m3u8/2020/08/07/7e12a026/index.m3u8
-fsdss-070吉高宁々,https://t4s.cdn2020.com/video/m3u8/2020/08/07/6a6fbd86/index.m3u8
-fsdss-070吉高宁々,https://t12.cdn2020.com:12337/video/m3u8/2021/10/22/3073de3b/index.m3u8
+fsdss-070吉高宁々,https://t4s.cdn2020.com/video/m3u8/2020/08/07/6a6fbd86/index.m3u8#https://t12.cdn2020.com:12337/video/m3u8/2021/10/22/3073de3b/index.m3u8
 fsdss-071椎名,https://t4s.cdn2020.com/video/m3u8/2020/08/18/ddcb72c8/index.m3u8
 fsdss-077天使,https://t4s.cdn2020.com/video/m3u8/2020/09/05/a64d7346/index.m3u8
 fsdss-078橋本,https://t4s.cdn2020.com/video/m3u8/2020/09/05/a455e139/index.m3u8
@@ -718,8 +715,7 @@ ipx-717,https://t11.cdn2020.com:12336/video/m3u8/2021/09/23/a6dc2f16/index.m3u8
 ipx-719,https://t11.cdn2020.com:12336/video/m3u8/2021/09/19/b7f78c3a/index.m3u8
 ipx-720栗山莉緒,https://t11.cdn2020.com:12336/video/m3u8/2021/09/23/d210a3e4/index.m3u8
 ipx-725桜空,https://t12.cdn2020.com:12337/video/m3u8/2021/10/15/0925f200/index.m3u8
-ipx-728西宫,https://t11.cdn2020.com:12336/video/m3u8/2021/09/23/5186de75/index.m3u8
-ipx-728西宫,https://siwazywcdn2.com:5278/zhongwenzimu/VovkKq2b/index.m3u8
+ipx-728西宫,https://t11.cdn2020.com:12336/video/m3u8/2021/09/23/5186de75/index.m3u8#https://siwazywcdn2.com:5278/zhongwenzimu/VovkKq2b/index.m3u8
 ipx-729岬,https://t11.cdn2020.com:12336/video/m3u8/2021/09/19/3979fa25/index.m3u8
 ipx-730,https://siwazywcdn2.com:5278/zhongwenzimu/RkemoLfB/index.m3u8
 ipx-732相沢,https://t11.cdn2020.com:12336/video/m3u8/2021/09/19/af8f9039/index.m3u8
@@ -812,8 +808,7 @@ jufd-717村泽,https://t11.cdn2020.com:12336/video/m3u8/2021/09/28/0493761c/inde
 jufd-830中村知恵,https://t12.cdn2020.com:12337/video/m3u8/2021/10/13/c0f7052b/index.m3u8
 jufd-874中村知恵,https://t12.cdn2020.com:12337/video/m3u8/2021/10/17/3004ce2d/index.m3u8
 jufe-067星奈柏木,https://t12.cdn2020.com:12337/video/m3u8/2021/10/13/42528843/index.m3u8
-JUFE-104,https://siwazywcdn2.com:5278/zhongwenzimu/4TrvxJeg/index.m3u8
-JUFE-104,https://siwazywcdn2.com:5278//zhongwenzimu/4TrvxJeg/index.m3u8
+JUFE-104,https://siwazywcdn2.com:5278/zhongwenzimu/4TrvxJeg/index.m3u8#https://siwazywcdn2.com:5278//zhongwenzimu/4TrvxJeg/index.m3u8
 jufe-197山本莲加,https://t4s.cdn2020.com/video/m3u8/2020/10/05/bb8777b0/index.m3u8
 jufe-313藤森里穂,https://t11.cdn2020.com:12335/video/m3u8/2021/08/07/e06a4275/index.m3u8
 JUFE-317,https://siwazywcdn2.com:5278/zhongwenzimu/jO6fu8ZG/index.m3u8
@@ -1350,8 +1345,7 @@ ssis-301梦乃,https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/14bd36ae/inde
 ssis-303星宫一花,https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/4bbe420f/index.m3u8
 ssis-306天音,https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/73589ce0/index.m3u8
 ssis-308河北彩花,https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/4ca0e556/index.m3u8
-ssis-309小宵,https://play92332.com/20220206/djXQUFEU/1734kb/hls/index.m3u8
-ssis-309小宵,https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/79bca4e0/index.m3u8
+ssis-309小宵,https://play92332.com/20220206/djXQUFEU/1734kb/hls/index.m3u8#https://t15.cdn2020.com:12340/video/m3u8/2022/02/16/79bca4e0/index.m3u8
 ssis-311香澄,https://t15.cdn2020.com:12340/video/m3u8/2022/02/12/0b2e138b/index.m3u8
 ssis-313三上悠亜,https://t15.cdn2020.com:12340/video/m3u8/2022/02/18/c0a7dc67/index.m3u8
 ssis-324山手梨爱,https://t15.cdn2020.com:12340/video/m3u8/2022/02/21/06811ff8/index.m3u8
@@ -1583,8 +1577,7 @@ himari_jp,https://edge-hls.doppiocdn.com/hls/95388833/master/95388833.m3u8
 -Soulmate_,https://edge-hls.doppiocdn.com/hls/95856388/master/95856388.m3u8
 SM_siqing,https://edge-hls.doppiocdn.com/hls/96348688/master/96348688.m3u8
 roby1210,https://edge-hls.doppiocdn.com/hls/96584812/master/96584812.m3u8
-_Donna__,https://edge-hls.doppiocdn.com/hls/98796526/master/98796526.m3u8
-_Donna__,https://edge-hls.doppiocdn.com/hls/86183126/master/86183126.m3u8
+_Donna__,https://edge-hls.doppiocdn.com/hls/98796526/master/98796526.m3u8#https://edge-hls.doppiocdn.com/hls/86183126/master/86183126.m3u8
 Dennielle-,https://edge-hls.doppiocdn.com/hls/99432040/master/99432040.m3u8
 A-mei,https://edge-hls.doppiocdn.com/hls/99798686/master/99798686.m3u8
 fairysexyBrazil,https://edge-hls.doppiocdn.com/hls/9902709/master/9902709.m3u8
