@@ -1,7 +1,8 @@
 
 
 🇨🇳卫视频道,#genre#
-浙江卫视,http://120.196.232.22:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226690/1.m3u8
+浙江卫视,http://gwtv.cnv8.tv:8097/Zhejiang/playlist.m3u8?tid=MC7C4621237046212370&ct=19226&tsum=78beb1b45c44b53e621403b4327efa56
+浙江卫视,http://gwtv.cnv8.tv:8097/zhejiang_twn/playlist.m3u8?tid=MD7D8766114087661140&ct=19226&tsum=c7f1ba96c1394e50a2a8b646bd398cae
 湖南卫视,http://120.196.232.43:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 东方卫视,https://volc-stream.kksmg.com/live/dfws/index.m3u8?volcSecret=18d4de897e5aaf1343062c67c3d52bce&volcTime=1700826112
 东方卫视,https://volc-stream.kksmg.com/live/dfws/index.m3u8?volcSecret=6b2eb75269a7ca7bae22e3e9286a6bdf&volcTime=1700817985
@@ -410,8 +411,7 @@
 
 三沙卫视,https://pullsstv90080111.ssws.tv/live/SSTV20220729.m3u8
 
-浙江卫视,http://gwtv.cnv8.tv:8097/Zhejiang/playlist.m3u8?tid=MC7C4621237046212370&ct=19226&tsum=78beb1b45c44b53e621403b4327efa56
-浙江卫视,http://gwtv.cnv8.tv:8097/zhejiang_twn/playlist.m3u8?tid=MD7D8766114087661140&ct=19226&tsum=c7f1ba96c1394e50a2a8b646bd398cae
+
 湖南卫视,http://gwtv.cnv8.tv:8097/hunan_twn/playlist.m3u8?tid=MC9C7618917276189172&ct=19226&tsum=2610487b0e9424def632889b293c0e9e
 江苏卫视,http://gwtv.cnv8.tv:8097/jiangsu_twn/playlist.m3u8?tid=MA6A5213905852139058&ct=19226&tsum=561feb226ebe64b3644f03d929c2a88a
 深圳卫视,http://gwtv.cnv8.tv:8097/shenzhen/playlist.m3u8?tid=MB9B3874889638748896&ct=19226&tsum=ade93def83a9c1eff7bceddd6ce76483
