@@ -1,5 +1,7 @@
 🇨🇳卫视频道,#genre#
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/720p.m3u8
+浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+浙江卫视,http://gwtv.cnv8.tv:8097/zhejiang_twn/playlist.m3u8?tid=MD7D8766114087661140&ct=19226&tsum=c7f1ba96c1394e50a2a8b646bd398cae
 湖南卫视,http://120.196.232.43:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 东方卫视,https://volc-stream.kksmg.com/live/dfws/index.m3u8?volcSecret=18d4de897e5aaf1343062c67c3d52bce&volcTime=1700826112
 东方卫视,https://volc-stream.kksmg.com/live/dfws/index.m3u8?volcSecret=6b2eb75269a7ca7bae22e3e9286a6bdf&volcTime=1700817985
@@ -90,21 +92,15 @@
 北京卫视,http://221.213.43.82:8888/newlive/live/hls/19/live.m3u8
 北京卫视,http://111.59.63.32:9901/tsfile/live/1030_1.m3u8
 
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/720p.m3u8
-浙江卫视,http://gwtv.cnv8.tv:8097/Zhejiang/playlist.m3u8?tid=MC7C4621237046212370&ct=19226&tsum=78beb1b45c44b53e621403b4327efa56
-浙江卫视,http://gwtv.cnv8.tv:8097/zhejiang_twn/playlist.m3u8?tid=MD7D8766114087661140&ct=19226&tsum=c7f1ba96c1394e50a2a8b646bd398cae
+浙江卫视,https://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江卫视,http://49.235.110.121:9090/daili/小果.php?id=zjwsH265_4000&Cf.m3u8
+浙江卫视,http://gwtv.cnv8.tv:8097/Zhejiang/playlist.m3u8?tid=MC7C4621237046212370&ct=19226&tsum=78beb1b45c44b53e621403b4327efa56
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/zhejianghd/2500/index.m3u8?&encrypt=
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/zhejianghd/1200/index.m3u8?&encrypt=
-浙江卫视,https://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/envivo_w/2018/SD/zhejiang/1000/index.m3u8?&encrypt=
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/zhejianghd/350/index.m3u8?&encrypt=
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/envivo_w/2018/SD/zhejiang/350/index.m3u8?&encrypt=
 浙江卫视,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/zhejianghd/600/index.m3u8?&encrypt=
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 
 
 
