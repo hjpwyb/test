@@ -85,6 +85,12 @@
 东方卫视,http://hlsbkmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/600/index.m3u8?&encrypt=
 东方卫视,http://hlsbkmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/350/index.m3u8?&encrypt=
 
+
+北京卫视,http://sxz.zccatv.cn:9901/tsfile/live/0122_1.m3u8
+北京卫视,http://49.235.110.121:9090/daili/小果.php?id=bjwsH265_4000&Cf.m3u8
+北京卫视,http://183.66.196.98:9901/tsfile/live/0122_1.m3u8
+北京卫视,http://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/beijing/350/index.m3u8?&encrypt=
+北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=
 北京卫视,http://49.235.110.121:9090/daili/小果.php?id=bjwsH265_4000&Cf.m3u8
 北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=
 北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws450/350/index.m3u8?&encrypt=
