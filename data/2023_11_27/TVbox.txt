@@ -85,22 +85,12 @@
 东方卫视,http://hlsbkmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/600/index.m3u8?&encrypt=
 东方卫视,http://hlsbkmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/350/index.m3u8?&encrypt=
 
-
-北京卫视,http://sxz.zccatv.cn:9901/tsfile/live/0122_1.m3u8
 北京卫视,http://49.235.110.121:9090/daili/小果.php?id=bjwsH265_4000&Cf.m3u8
-北京卫视,http://183.66.196.98:9901/tsfile/live/0122_1.m3u8
-北京卫视,http://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/beijing/350/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=
-北京卫视,http://49.235.110.121:9090/daili/小果.php?id=bjwsH265_4000&Cf.m3u8
-北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws2000/2000/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws450/350/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/beijing/1000/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/beijing/350/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/ws_w/2018/bjws/bjws711/1000/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/wd_r3/btv/btv6/3000/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/wd_r3/btv/btv6/350/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/wd_r3/btv/btv6/2000/index.m3u8?&encrypt=
-北京卫视,http://hlsbkmgsplive.miguvideo.com/wd_r3/btv/btv6/1000/index.m3u8?&encrypt=
+北京卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8?
+北京卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226719/1.m3u8
+北京卫视,https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
+北京卫视,http://221.213.43.82:8888/newlive/live/hls/19/live.m3u8
+北京卫视,http://111.59.63.32:9901/tsfile/live/1030_1.m3u8
 
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
