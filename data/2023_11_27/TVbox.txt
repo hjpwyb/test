@@ -458,6 +458,11 @@ CCTV4-美洲,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/5
 CCTV4-美洲,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/51/index.m3u8?&encrypt=1
 CCTV4-美洲,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/50/index.m3u8?&encrypt=1
 
+CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/2500/index.m3u8?&encrypt=1
+CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/1200/index.m3u8?&encrypt=1
+CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5hdnew/600/index.m3u8?&encrypt=1
+CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/350/index.m3u8?&encrypt=
+
 CCTV5,http://hlsbkmgsplive.miguvideo.com/migu/kailu/cctv5hd265/57/20191230/index.m3u8?&encrypt=1
 CCTV5,https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
 CCTV5,http://hlsbkmgsplive.miguvideo.com/migu/kailu/cctv5hd265/57/20191230/index.m3u8?&encrypt=
@@ -533,11 +538,6 @@ CCTV16,http://111.20.40.160/PLTV/88888893/224/3221226921/index.m3u8
 CCTV17,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/57/index.m3u8?&encrypt=1
 CCTV17,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/51/index.m3u8?&encrypt=1
 CCTV17,http://hlsbkmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/50/index.m3u8?&encrypt=1
-
-CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/2500/index.m3u8?&encrypt=1
-CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/1200/index.m3u8?&encrypt=1
-CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5hdnew/600/index.m3u8?&encrypt=1
-CCTV5+,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/350/index.m3u8?&encrypt=
 
 CGTN,http://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/cctv4/1000/index.m3u8?&encrypt=
 CGTN,http://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/cctv4/350/index.m3u8?&encrypt=
