@@ -1,3 +1,4 @@
+🇨🇳央视频道,#genre#
 CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/ind
 CCTV-1,http://a.xttv.top/xttv/27f43e697655f4d44c62d7f4d32fcctv.m3u8
 CCTV-1,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
@@ -44,9 +45,20 @@ CCTV-5+,http://jycb.f3322.net:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&a
 CCTV-5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8?
 CCTV-5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8
 
+🇨🇳卫视频道,#genre#
+
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,http://221.2.36.34:8888/newlive/live/hls/24/live.m3u8
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+
+北京卫视,http://221.2.36.34:8888/newlive/live/hls/19/live.m3u8
+北京卫视,http://222.71.90.218:8888/newlive/live/hls/18/live.m3u8
+
+东方卫视,http://221.2.36.34:8888/newlive/live/hls/20/live.m3u8
+东方卫视,http://222.71.90.218:8888/newlive/live/hls/19/live.m3u8
+
+湖南卫视,https://node1.olelive.com:6443/live/HNHD/hls.m3u8
+湖南卫视,http://222.71.90.218:8888/newlive/live/hls/22/live.m3u8
 
 江苏卫视,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8?
 江苏卫视,http://221.2.36.34:8888/newlive/live/hls/22/live.m3u8
@@ -60,16 +72,10 @@ CCTV-5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225
 安徽卫视,https://www.whalenas.com/bestv/index.php?id=ahwshd8m/8000000
 安徽卫视,http://221.2.36.34:8888/newlive/live/hls/25/live.m3u8
 
-北京卫视,http://221.2.36.34:8888/newlive/live/hls/19/live.m3u8
-北京卫视,http://222.71.90.218:8888/newlive/live/hls/18/live.m3u8
 
 
 天津卫视,http://221.2.36.34:8888/newlive/live/hls/42/live.m3u8
 天津卫视,http://222.71.90.218:8888/newlive/live/hls/32/live.m3u8
-
-
-东方卫视,http://221.2.36.34:8888/newlive/live/hls/20/live.m3u8
-东方卫视,http://222.71.90.218:8888/newlive/live/hls/19/live.m3u8
 
 
 山东卫视,http://221.2.36.34:8888/newlive/live/hls/30/live.m3u8
@@ -77,11 +83,6 @@ CCTV-5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225
 
 
 湖北卫视,http://221.2.36.34:8888/newlive/live/hls/34/live.m3u8
-
-湖南卫视,https://node1.olelive.com:6443/live/HNHD/hls.m3u8
-
-湖南卫视,http://222.71.90.218:8888/newlive/live/hls/22/live.m3u8
-
 湖北卫视,http://222.71.90.218:8888/newlive/live/hls/27/live.m3u8
 
 
