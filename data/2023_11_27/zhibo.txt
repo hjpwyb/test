@@ -1,8 +1,5 @@
 🇨🇳央视频道,#genre#
-CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/ind
-CCTV-1,http://a.xttv.top/xttv/27f43e697655f4d44c62d7f4d32fcctv.m3u8
-CCTV-1,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
-CCTV-1,http://stream3.hndt.com/now/Or5au0KN/playlist.m3u8
+
 CCTV1,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/2500/index.m3u8?&encrypt=1
 CCTV1,http://hlsbkmgsplive.miguvideo.com/migu/kailu/cctv1hd265/57/20191230/index.m3u8?&encrypt=1
 CCTV1,http://tvpull.dxhmt.cn/tv/11481-4.m3u8
@@ -12,6 +9,10 @@ CCTV1,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/350/index.m3u8?&encr
 CCTV1,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv1/350/index.m3u8?&encrypt=
 CCTV1,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv1/600/index.m3u8?&encrypt=
 CCTV1,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/600/index.m3u8?&encrypt=
+CCTV1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/ind
+CCTV1,http://a.xttv.top/xttv/27f43e697655f4d44c62d7f4d32fcctv.m3u8
+CCTV1,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
+CCTV1,http://stream3.hndt.com/now/Or5au0KN/playlist.m3u8
 CCTV2,http://hlsbkmgsplive.miguvideo.com/wd_r2/cctv/cctv2hd/3000/index.m3u8?&encrypt=1
 CCTV2,http://hlsbkmgsplive.miguvideo.com/migu/kailu/cctv2hd265/55/20200407/index.m3u8?&encrypt=1
 CCTV2,http://hlsbkmgsplive.miguvideo.com/migu/kailu/cctv2hd265/54/20200407/index.m3u8?&encrypt=1
