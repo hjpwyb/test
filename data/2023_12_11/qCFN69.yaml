@@ -1,0 +1,1067 @@
+#
+#-------------------------------------------------------------#
+#  创建者：https://v2rayse.com
+#  创建时间：2023-12-11 07:13:32
+#  模版：ACL4SSR_Online_Full_MultiMode
+#  节点数量：155
+#-------------------------------------------------------------#
+#
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - {"type":"vmess","name":"科技网络🇨🇦_30","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.76482812.xyz"}},"server":"142.171.238.18","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_50","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.11640247.xyz"}},"server":"142.171.149.75","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_52","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.32410592.xyz"}},"server":"142.171.79.10","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_74","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.69062911.xyz"}},"server":"142.171.215.51","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_76","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.70615435.xyz"}},"server":"142.171.187.178","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_83","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.60988297.xyz"}},"server":"142.171.149.227","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_85","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.34333679.xyz"}},"server":"142.171.149.99","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇨🇦_87","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.62644213.xyz"}},"server":"142.171.215.99","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇫🇷_130","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.11977475.xyz"}},"server":"156.249.18.74","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇫🇷_42","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.56510527.xyz"}},"server":"156.249.18.157","port":"30000","uuid":"130c9f2e-42b1-4ebf-b345-e26456a061f9","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇫🇷_72","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.54294122.xyz"}},"server":"156.249.18.208","port":"40000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇭🇰_129","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.13553832.xyz"}},"server":"156.245.8.180","port":"30000","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇭🇰_22","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.16864299.xyz"}},"server":"156.245.8.91","port":"30000","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇭🇰_32","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.54241651.xyz"}},"server":"156.245.8.228","port":"30000","uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇳🇱_101","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.38562152.xyz"}},"server":"154.85.1.35","port":"30000","uuid":"1d474f0b-e78d-4af9-bc4a-a467467bc7a7","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇳🇱_21","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.42077230.xyz"}},"server":"46.182.107.15","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇳🇱_3","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.39803953.xyz"}},"server":"154.85.1.224","port":"30000","uuid":"b8df3ef1-887f-4ee4-855f-4f80416c2464","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇳🇱_8","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.38858917.xyz"}},"server":"154.85.1.185","port":"30000","uuid":"f5250c4e-f855-4eff-b73c-a02226d42fe7","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_1","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.73492164.xyz"}},"server":"104.219.212.195","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_10","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.72732886.xyz"}},"server":"156.225.67.197","port":"30000","uuid":"964bf499-9ec0-4378-92b6-87d8d861b2d0","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_100","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.50979398.xyz"}},"server":"137.175.32.129","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_102","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.14417851.xyz"}},"server":"107.148.203.148","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_103","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.49746402.xyz"}},"server":"198.2.202.67","port":"31000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_104","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.29532481.xyz"}},"server":"199.188.107.153","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_105","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.37790958.xyz"}},"server":"192.74.249.4","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_106","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.34064258.xyz"}},"server":"45.58.150.94","port":"30000","uuid":"8a3dcaa7-41e1-46a2-9820-56912a8a8e9c","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_107","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.35226205.xyz"}},"server":"198.2.203.162","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_108","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.37915511.xyz"}},"server":"142.4.109.13","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_109","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.96601962.xyz"}},"server":"199.180.102.220","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_11","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.82867998.xyz"}},"server":"107.148.135.184","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_110","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.22103619.xyz"}},"server":"142.0.138.19","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_111","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.22880476.xyz"}},"server":"107.148.24.113","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_112","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.72672771.xyz"}},"server":"148.135.31.170","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_113","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.86439731.xyz"}},"server":"107.148.87.182","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_114","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.94542041.xyz"}},"server":"142.0.136.119","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_115","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.84913025.xyz"}},"server":"137.175.22.132","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_116","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.22880476.xyz"}},"server":"107.148.24.113","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_117","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.56245148.xyz"}},"server":"142.4.101.18","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_118","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.89322463.xyz"}},"server":"107.148.25.184","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_119","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.26376970.xyz"}},"server":"137.175.82.137","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_12","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.17144479.xyz"}},"server":"192.74.241.197","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_120","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.53854245.xyz"}},"server":"156.225.67.239","port":"30000","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_121","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.65524410.xyz"}},"server":"107.148.87.130","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_122","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.19940750.xyz"}},"server":"107.148.25.139","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_123","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.87867147.xyz"}},"server":"192.74.231.40","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_124","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.30610304.xyz"}},"server":"107.148.203.98","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_125","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.53398349.xyz"}},"server":"107.148.86.167","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_126","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.43276314.xyz"}},"server":"198.2.203.2","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_127","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.25921573.xyz"}},"server":"198.2.197.250","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_128","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.65524410.xyz"}},"server":"107.148.87.130","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_13","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.86439731.xyz"}},"server":"107.148.87.182","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_131","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.86222404.xyz"}},"server":"107.148.196.242","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_132","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.70774901.xyz"}},"server":"64.32.3.232","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_133","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.19940750.xyz"}},"server":"107.148.25.139","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_134","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.88016387.xyz"}},"server":"142.4.111.177","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_135","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.53924521.xyz"}},"server":"198.2.216.140","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_136","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.34293889.xyz"}},"server":"199.188.111.7","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_137","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.51360818.xyz"}},"server":"199.188.111.233","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_138","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.63384436.xyz"}},"server":"38.63.16.156","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_139","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.58116899.xyz"}},"server":"64.32.8.215","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_14","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.29833592.xyz"}},"server":"137.175.57.189","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_140","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.67999180.xyz"}},"server":"199.188.105.169","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_141","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.67834170.xyz"}},"server":"137.175.3.28","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_142","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.54140630.xyz"}},"server":"198.2.193.10","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_143","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.74386585.xyz"}},"server":"45.58.174.92","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_144","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.28433589.xyz"}},"server":"192.74.234.14","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_145","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.24867884.xyz"}},"server":"137.175.61.132","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_146","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.83249262.xyz"}},"server":"142.4.125.23","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_147","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.34668845.xyz"}},"server":"156.225.67.101","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_148","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.94152251.xyz"}},"server":"137.175.32.89","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_149","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.31033708.xyz"}},"server":"142.4.97.72","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_15","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.43430140.xyz"}},"server":"156.225.67.144","port":"30000","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_150","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.16440388.xyz"}},"server":"142.0.133.33","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_151","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.24603527.xyz"}},"server":"107.148.86.153","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_152","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.74637789.xyz"}},"server":"142.4.118.105","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_153","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.89322463.xyz"}},"server":"107.148.25.184","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_154","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.94231160.xyz"}},"server":"198.2.202.24","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_155","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.65825524.xyz"}},"server":"198.2.202.93","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_16","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.87238975.xyz"}},"server":"192.74.245.233","port":"443","uuid":"ac9d75fa-cdf8-4ace-8012-3fcd9bc989b9","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_17","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.33756710.xyz"}},"server":"142.4.100.9","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_18","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.66273264.xyz"}},"server":"137.175.18.85","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_19","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.71034070.xyz"}},"server":"108.186.116.173","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_2","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.92873889.xyz"}},"server":"156.225.67.60","port":"30000","uuid":"6193116d-96f9-4d7a-9be5-5bb06a69af0b","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_20","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.53924521.xyz"}},"server":"198.2.216.140","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_23","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.98561696.xyz"}},"server":"142.4.101.185","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_24","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.55092941.xyz"}},"server":"156.225.67.76","port":"30000","uuid":"3e016c4d-986e-42df-838c-6046f3d89ecf","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_25","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.87137277.xyz"}},"server":"142.0.137.24","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_26","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.60218590.xyz"}},"server":"142.4.98.11","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_27","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.75322715.xyz"}},"server":"199.180.103.52","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_28","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.77993560.xyz"}},"server":"198.2.205.65","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_29","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.19740716.xyz"}},"server":"45.199.138.231","port":"40000","uuid":"6e79eea4-5f72-4683-ad0e-5339f013421b","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_31","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.98561696.xyz"}},"server":"142.4.101.185","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_33","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.85562294.xyz"}},"server":"156.225.67.194","port":"443","uuid":"5a4d69ad-20a9-4941-b223-87bbd09f5f52","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_34","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.75584532.xyz"}},"server":"142.0.134.194","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_35","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.20414124.xyz"}},"server":"148.135.14.99","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_36","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.66826733.xyz"}},"server":"199.188.108.230","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_37","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.17383957.xyz"}},"server":"142.4.108.207","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_38","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.98027230.xyz"}},"server":"142.0.133.226","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_39","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.84206290.xyz"}},"server":"38.63.17.163","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_4","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.14417851.xyz"}},"server":"107.148.203.148","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_40","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.43537463.xyz"}},"server":"198.2.203.97","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_41","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.72649000.xyz"}},"server":"137.175.69.209","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_43","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.93989779.xyz"}},"server":"156.225.67.141","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_44","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.25208010.xyz"}},"server":"142.4.110.10","port":"30000","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_45","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.23602249.xyz"}},"server":"137.175.47.183","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_46","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.73664999.xyz"}},"server":"38.54.185.113","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_47","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.90469567.xyz"}},"server":"142.0.135.2","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_48","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.92308907.xyz"}},"server":"142.4.96.210","port":"30000","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_49","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.87238975.xyz"}},"server":"192.74.245.233","port":"443","uuid":"ac9d75fa-cdf8-4ace-8012-3fcd9bc989b9","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_5","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.86995954.xyz"}},"server":"198.2.205.113","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_51","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.90224962.xyz"}},"server":"142.4.116.241","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_53","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.83008320.xyz"}},"server":"137.175.4.40","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_54","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.90224962.xyz"}},"server":"142.4.116.241","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_55","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.60982566.xyz"}},"server":"107.148.203.86","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_56","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.73492164.xyz"}},"server":"104.219.212.195","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_57","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.31270022.xyz"}},"server":"148.135.33.140","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_58","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.54146999.xyz"}},"server":"192.74.244.4","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_59","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.38452726.xyz"}},"server":"192.74.238.200","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_6","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.23217609.xyz"}},"server":"142.0.137.193","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_60","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.30372614.xyz"}},"server":"107.148.195.136","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_61","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.26595897.xyz"}},"server":"156.225.67.28","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_62","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.30994104.xyz"}},"server":"148.135.33.92","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_63","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.99085132.xyz"}},"server":"137.175.15.221","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_64","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.82078541.xyz"}},"server":"137.175.22.145","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_65","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.37195723.xyz"}},"server":"137.175.49.205","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_66","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.75575729.xyz"}},"server":"198.2.204.40","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_67","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.45436752.xyz"}},"server":"156.225.67.123","port":"30000","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_68","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.78310250.xyz"}},"server":"142.0.128.169","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_69","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.31446391.xyz"}},"server":"137.175.13.244","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_7","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.74677567.xyz"}},"server":"192.74.229.9","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_70","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.39619212.xyz"}},"server":"198.2.197.77","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_71","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.72594139.xyz"}},"server":"142.4.96.59","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_73","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.64102475.xyz"}},"server":"142.4.104.103","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_75","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.59599796.xyz"}},"server":"142.0.128.200","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_77","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.51360818.xyz"}},"server":"199.188.111.233","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_78","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.75357611.xyz"}},"server":"137.175.54.48","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_79","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.54790250.xyz"}},"server":"137.175.4.56","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_80","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.33021824.xyz"}},"server":"137.175.3.225","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_81","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.69555583.xyz"}},"server":"148.135.9.66","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_82","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.74353726.xyz"}},"server":"148.135.33.82","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_84","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.23324885.xyz"}},"server":"142.4.106.113","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_86","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.15696446.xyz"}},"server":"142.0.139.48","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_88","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.22796359.xyz"}},"server":"142.4.102.177","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_89","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.67266046.xyz"}},"server":"142.4.122.72","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_9","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.67834170.xyz"}},"server":"137.175.3.28","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_90","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.94542041.xyz"}},"server":"142.0.136.119","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_91","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.61708240.xyz"}},"server":"198.2.200.37","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_92","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.24867884.xyz"}},"server":"137.175.61.132","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_93","ws-opts":{"path":"/path/211826353201","headers":{"host":"www.74637789.xyz"}},"server":"142.4.118.105","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_94","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.86899946.xyz"}},"server":"142.4.109.184","port":"30000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_95","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.15036832.xyz"}},"server":"137.175.1.13","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_96","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.44337922.xyz"}},"server":"198.2.204.51","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_97","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.36296989.xyz"}},"server":"45.58.149.24","port":"30000","uuid":"353fc817-855f-4afc-b6cd-03bbbcceca01","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_98","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.63181393.xyz"}},"server":"142.4.108.73","port":"31000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"科技网络🇺🇸_99","ws-opts":{"path":"/path/1702215223320","headers":{"host":"www.60184527.xyz"}},"server":"142.4.126.48","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - 科技网络🇨🇦_30
+      - 科技网络🇨🇦_50
+      - 科技网络🇨🇦_52
+      - 科技网络🇨🇦_74
+      - 科技网络🇨🇦_76
+      - 科技网络🇨🇦_83
+      - 科技网络🇨🇦_85
+      - 科技网络🇨🇦_87
+      - 科技网络🇫🇷_130
+      - 科技网络🇫🇷_42
+      - 科技网络🇫🇷_72
+      - 科技网络🇭🇰_129
+      - 科技网络🇭🇰_22
+      - 科技网络🇭🇰_32
+      - 科技网络🇳🇱_101
+      - 科技网络🇳🇱_21
+      - 科技网络🇳🇱_3
+      - 科技网络🇳🇱_8
+      - 科技网络🇺🇸_1
+      - 科技网络🇺🇸_10
+      - 科技网络🇺🇸_100
+      - 科技网络🇺🇸_102
+      - 科技网络🇺🇸_103
+      - 科技网络🇺🇸_104
+      - 科技网络🇺🇸_105
+      - 科技网络🇺🇸_106
+      - 科技网络🇺🇸_107
+      - 科技网络🇺🇸_108
+      - 科技网络🇺🇸_109
+      - 科技网络🇺🇸_11
+      - 科技网络🇺🇸_110
+      - 科技网络🇺🇸_111
+      - 科技网络🇺🇸_112
+      - 科技网络🇺🇸_113
+      - 科技网络🇺🇸_114
+      - 科技网络🇺🇸_115
+      - 科技网络🇺🇸_116
+      - 科技网络🇺🇸_117
+      - 科技网络🇺🇸_118
+      - 科技网络🇺🇸_119
+      - 科技网络🇺🇸_12
+      - 科技网络🇺🇸_120
+      - 科技网络🇺🇸_121
+      - 科技网络🇺🇸_122
+      - 科技网络🇺🇸_123
+      - 科技网络🇺🇸_124
+      - 科技网络🇺🇸_125
+      - 科技网络🇺🇸_126
+      - 科技网络🇺🇸_127
+      - 科技网络🇺🇸_128
+      - 科技网络🇺🇸_13
+      - 科技网络🇺🇸_131
+      - 科技网络🇺🇸_132
+      - 科技网络🇺🇸_133
+      - 科技网络🇺🇸_134
+      - 科技网络🇺🇸_135
+      - 科技网络🇺🇸_136
+      - 科技网络🇺🇸_137
+      - 科技网络🇺🇸_138
+      - 科技网络🇺🇸_139
+      - 科技网络🇺🇸_14
+      - 科技网络🇺🇸_140
+      - 科技网络🇺🇸_141
+      - 科技网络🇺🇸_142
+      - 科技网络🇺🇸_143
+      - 科技网络🇺🇸_144
+      - 科技网络🇺🇸_145
+      - 科技网络🇺🇸_146
+      - 科技网络🇺🇸_147
+      - 科技网络🇺🇸_148
+      - 科技网络🇺🇸_149
+      - 科技网络🇺🇸_15
+      - 科技网络🇺🇸_150
+      - 科技网络🇺🇸_151
+      - 科技网络🇺🇸_152
+      - 科技网络🇺🇸_153
+      - 科技网络🇺🇸_154
+      - 科技网络🇺🇸_155
+      - 科技网络🇺🇸_16
+      - 科技网络🇺🇸_17
+      - 科技网络🇺🇸_18
+      - 科技网络🇺🇸_19
+      - 科技网络🇺🇸_2
+      - 科技网络🇺🇸_20
+      - 科技网络🇺🇸_23
+      - 科技网络🇺🇸_24
+      - 科技网络🇺🇸_25
+      - 科技网络🇺🇸_26
+      - 科技网络🇺🇸_27
+      - 科技网络🇺🇸_28
+      - 科技网络🇺🇸_29
+      - 科技网络🇺🇸_31
+      - 科技网络🇺🇸_33
+      - 科技网络🇺🇸_34
+      - 科技网络🇺🇸_35
+      - 科技网络🇺🇸_36
+      - 科技网络🇺🇸_37
+      - 科技网络🇺🇸_38
+      - 科技网络🇺🇸_39
+      - 科技网络🇺🇸_4
+      - 科技网络🇺🇸_40
+      - 科技网络🇺🇸_41
+      - 科技网络🇺🇸_43
+      - 科技网络🇺🇸_44
+      - 科技网络🇺🇸_45
+      - 科技网络🇺🇸_46
+      - 科技网络🇺🇸_47
+      - 科技网络🇺🇸_48
+      - 科技网络🇺🇸_49
+      - 科技网络🇺🇸_5
+      - 科技网络🇺🇸_51
+      - 科技网络🇺🇸_53
+      - 科技网络🇺🇸_54
+      - 科技网络🇺🇸_55
+      - 科技网络🇺🇸_56
+      - 科技网络🇺🇸_57
+      - 科技网络🇺🇸_58
+      - 科技网络🇺🇸_59
+      - 科技网络🇺🇸_6
+      - 科技网络🇺🇸_60
+      - 科技网络🇺🇸_61
+      - 科技网络🇺🇸_62
+      - 科技网络🇺🇸_63
+      - 科技网络🇺🇸_64
+      - 科技网络🇺🇸_65
+      - 科技网络🇺🇸_66
+      - 科技网络🇺🇸_67
+      - 科技网络🇺🇸_68
+      - 科技网络🇺🇸_69
+      - 科技网络🇺🇸_7
+      - 科技网络🇺🇸_70
+      - 科技网络🇺🇸_71
+      - 科技网络🇺🇸_73
+      - 科技网络🇺🇸_75
+      - 科技网络🇺🇸_77
+      - 科技网络🇺🇸_78
+      - 科技网络🇺🇸_79
+      - 科技网络🇺🇸_80
+      - 科技网络🇺🇸_81
+      - 科技网络🇺🇸_82
+      - 科技网络🇺🇸_84
+      - 科技网络🇺🇸_86
+      - 科技网络🇺🇸_88
+      - 科技网络🇺🇸_89
+      - 科技网络🇺🇸_9
+      - 科技网络🇺🇸_90
+      - 科技网络🇺🇸_91
+      - 科技网络🇺🇸_92
+      - 科技网络🇺🇸_93
+      - 科技网络🇺🇸_94
+      - 科技网络🇺🇸_95
+      - 科技网络🇺🇸_96
+      - 科技网络🇺🇸_97
+      - 科技网络🇺🇸_98
+      - 科技网络🇺🇸_99
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 科技网络🇨🇦_30
+      - 科技网络🇨🇦_50
+      - 科技网络🇨🇦_52
+      - 科技网络🇨🇦_74
+      - 科技网络🇨🇦_76
+      - 科技网络🇨🇦_83
+      - 科技网络🇨🇦_85
+      - 科技网络🇨🇦_87
+      - 科技网络🇫🇷_130
+      - 科技网络🇫🇷_42
+      - 科技网络🇫🇷_72
+      - 科技网络🇭🇰_129
+      - 科技网络🇭🇰_22
+      - 科技网络🇭🇰_32
+      - 科技网络🇳🇱_101
+      - 科技网络🇳🇱_21
+      - 科技网络🇳🇱_3
+      - 科技网络🇳🇱_8
+      - 科技网络🇺🇸_1
+      - 科技网络🇺🇸_10
+      - 科技网络🇺🇸_100
+      - 科技网络🇺🇸_102
+      - 科技网络🇺🇸_103
+      - 科技网络🇺🇸_104
+      - 科技网络🇺🇸_105
+      - 科技网络🇺🇸_106
+      - 科技网络🇺🇸_107
+      - 科技网络🇺🇸_108
+      - 科技网络🇺🇸_109
+      - 科技网络🇺🇸_11
+      - 科技网络🇺🇸_110
+      - 科技网络🇺🇸_111
+      - 科技网络🇺🇸_112
+      - 科技网络🇺🇸_113
+      - 科技网络🇺🇸_114
+      - 科技网络🇺🇸_115
+      - 科技网络🇺🇸_116
+      - 科技网络🇺🇸_117
+      - 科技网络🇺🇸_118
+      - 科技网络🇺🇸_119
+      - 科技网络🇺🇸_12
+      - 科技网络🇺🇸_120
+      - 科技网络🇺🇸_121
+      - 科技网络🇺🇸_122
+      - 科技网络🇺🇸_123
+      - 科技网络🇺🇸_124
+      - 科技网络🇺🇸_125
+      - 科技网络🇺🇸_126
+      - 科技网络🇺🇸_127
+      - 科技网络🇺🇸_128
+      - 科技网络🇺🇸_13
+      - 科技网络🇺🇸_131
+      - 科技网络🇺🇸_132
+      - 科技网络🇺🇸_133
+      - 科技网络🇺🇸_134
+      - 科技网络🇺🇸_135
+      - 科技网络🇺🇸_136
+      - 科技网络🇺🇸_137
+      - 科技网络🇺🇸_138
+      - 科技网络🇺🇸_139
+      - 科技网络🇺🇸_14
+      - 科技网络🇺🇸_140
+      - 科技网络🇺🇸_141
+      - 科技网络🇺🇸_142
+      - 科技网络🇺🇸_143
+      - 科技网络🇺🇸_144
+      - 科技网络🇺🇸_145
+      - 科技网络🇺🇸_146
+      - 科技网络🇺🇸_147
+      - 科技网络🇺🇸_148
+      - 科技网络🇺🇸_149
+      - 科技网络🇺🇸_15
+      - 科技网络🇺🇸_150
+      - 科技网络🇺🇸_151
+      - 科技网络🇺🇸_152
+      - 科技网络🇺🇸_153
+      - 科技网络🇺🇸_154
+      - 科技网络🇺🇸_155
+      - 科技网络🇺🇸_16
+      - 科技网络🇺🇸_17
+      - 科技网络🇺🇸_18
+      - 科技网络🇺🇸_19
+      - 科技网络🇺🇸_2
+      - 科技网络🇺🇸_20
+      - 科技网络🇺🇸_23
+      - 科技网络🇺🇸_24
+      - 科技网络🇺🇸_25
+      - 科技网络🇺🇸_26
+      - 科技网络🇺🇸_27
+      - 科技网络🇺🇸_28
+      - 科技网络🇺🇸_29
+      - 科技网络🇺🇸_31
+      - 科技网络🇺🇸_33
+      - 科技网络🇺🇸_34
+      - 科技网络🇺🇸_35
+      - 科技网络🇺🇸_36
+      - 科技网络🇺🇸_37
+      - 科技网络🇺🇸_38
+      - 科技网络🇺🇸_39
+      - 科技网络🇺🇸_4
+      - 科技网络🇺🇸_40
+      - 科技网络🇺🇸_41
+      - 科技网络🇺🇸_43
+      - 科技网络🇺🇸_44
+      - 科技网络🇺🇸_45
+      - 科技网络🇺🇸_46
+      - 科技网络🇺🇸_47
+      - 科技网络🇺🇸_48
+      - 科技网络🇺🇸_49
+      - 科技网络🇺🇸_5
+      - 科技网络🇺🇸_51
+      - 科技网络🇺🇸_53
+      - 科技网络🇺🇸_54
+      - 科技网络🇺🇸_55
+      - 科技网络🇺🇸_56
+      - 科技网络🇺🇸_57
+      - 科技网络🇺🇸_58
+      - 科技网络🇺🇸_59
+      - 科技网络🇺🇸_6
+      - 科技网络🇺🇸_60
+      - 科技网络🇺🇸_61
+      - 科技网络🇺🇸_62
+      - 科技网络🇺🇸_63
+      - 科技网络🇺🇸_64
+      - 科技网络🇺🇸_65
+      - 科技网络🇺🇸_66
+      - 科技网络🇺🇸_67
+      - 科技网络🇺🇸_68
+      - 科技网络🇺🇸_69
+      - 科技网络🇺🇸_7
+      - 科技网络🇺🇸_70
+      - 科技网络🇺🇸_71
+      - 科技网络🇺🇸_73
+      - 科技网络🇺🇸_75
+      - 科技网络🇺🇸_77
+      - 科技网络🇺🇸_78
+      - 科技网络🇺🇸_79
+      - 科技网络🇺🇸_80
+      - 科技网络🇺🇸_81
+      - 科技网络🇺🇸_82
+      - 科技网络🇺🇸_84
+      - 科技网络🇺🇸_86
+      - 科技网络🇺🇸_88
+      - 科技网络🇺🇸_89
+      - 科技网络🇺🇸_9
+      - 科技网络🇺🇸_90
+      - 科技网络🇺🇸_91
+      - 科技网络🇺🇸_92
+      - 科技网络🇺🇸_93
+      - 科技网络🇺🇸_94
+      - 科技网络🇺🇸_95
+      - 科技网络🇺🇸_96
+      - 科技网络🇺🇸_97
+      - 科技网络🇺🇸_98
+      - 科技网络🇺🇸_99
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 科技网络🇨🇦_30
+      - 科技网络🇨🇦_50
+      - 科技网络🇨🇦_52
+      - 科技网络🇨🇦_74
+      - 科技网络🇨🇦_76
+      - 科技网络🇨🇦_83
+      - 科技网络🇨🇦_85
+      - 科技网络🇨🇦_87
+      - 科技网络🇫🇷_130
+      - 科技网络🇫🇷_42
+      - 科技网络🇫🇷_72
+      - 科技网络🇭🇰_129
+      - 科技网络🇭🇰_22
+      - 科技网络🇭🇰_32
+      - 科技网络🇳🇱_101
+      - 科技网络🇳🇱_21
+      - 科技网络🇳🇱_3
+      - 科技网络🇳🇱_8
+      - 科技网络🇺🇸_1
+      - 科技网络🇺🇸_10
+      - 科技网络🇺🇸_100
+      - 科技网络🇺🇸_102
+      - 科技网络🇺🇸_103
+      - 科技网络🇺🇸_104
+      - 科技网络🇺🇸_105
+      - 科技网络🇺🇸_106
+      - 科技网络🇺🇸_107
+      - 科技网络🇺🇸_108
+      - 科技网络🇺🇸_109
+      - 科技网络🇺🇸_11
+      - 科技网络🇺🇸_110
+      - 科技网络🇺🇸_111
+      - 科技网络🇺🇸_112
+      - 科技网络🇺🇸_113
+      - 科技网络🇺🇸_114
+      - 科技网络🇺🇸_115
+      - 科技网络🇺🇸_116
+      - 科技网络🇺🇸_117
+      - 科技网络🇺🇸_118
+      - 科技网络🇺🇸_119
+      - 科技网络🇺🇸_12
+      - 科技网络🇺🇸_120
+      - 科技网络🇺🇸_121
+      - 科技网络🇺🇸_122
+      - 科技网络🇺🇸_123
+      - 科技网络🇺🇸_124
+      - 科技网络🇺🇸_125
+      - 科技网络🇺🇸_126
+      - 科技网络🇺🇸_127
+      - 科技网络🇺🇸_128
+      - 科技网络🇺🇸_13
+      - 科技网络🇺🇸_131
+      - 科技网络🇺🇸_132
+      - 科技网络🇺🇸_133
+      - 科技网络🇺🇸_134
+      - 科技网络🇺🇸_135
+      - 科技网络🇺🇸_136
+      - 科技网络🇺🇸_137
+      - 科技网络🇺🇸_138
+      - 科技网络🇺🇸_139
+      - 科技网络🇺🇸_14
+      - 科技网络🇺🇸_140
+      - 科技网络🇺🇸_141
+      - 科技网络🇺🇸_142
+      - 科技网络🇺🇸_143
+      - 科技网络🇺🇸_144
+      - 科技网络🇺🇸_145
+      - 科技网络🇺🇸_146
+      - 科技网络🇺🇸_147
+      - 科技网络🇺🇸_148
+      - 科技网络🇺🇸_149
+      - 科技网络🇺🇸_15
+      - 科技网络🇺🇸_150
+      - 科技网络🇺🇸_151
+      - 科技网络🇺🇸_152
+      - 科技网络🇺🇸_153
+      - 科技网络🇺🇸_154
+      - 科技网络🇺🇸_155
+      - 科技网络🇺🇸_16
+      - 科技网络🇺🇸_17
+      - 科技网络🇺🇸_18
+      - 科技网络🇺🇸_19
+      - 科技网络🇺🇸_2
+      - 科技网络🇺🇸_20
+      - 科技网络🇺🇸_23
+      - 科技网络🇺🇸_24
+      - 科技网络🇺🇸_25
+      - 科技网络🇺🇸_26
+      - 科技网络🇺🇸_27
+      - 科技网络🇺🇸_28
+      - 科技网络🇺🇸_29
+      - 科技网络🇺🇸_31
+      - 科技网络🇺🇸_33
+      - 科技网络🇺🇸_34
+      - 科技网络🇺🇸_35
+      - 科技网络🇺🇸_36
+      - 科技网络🇺🇸_37
+      - 科技网络🇺🇸_38
+      - 科技网络🇺🇸_39
+      - 科技网络🇺🇸_4
+      - 科技网络🇺🇸_40
+      - 科技网络🇺🇸_41
+      - 科技网络🇺🇸_43
+      - 科技网络🇺🇸_44
+      - 科技网络🇺🇸_45
+      - 科技网络🇺🇸_46
+      - 科技网络🇺🇸_47
+      - 科技网络🇺🇸_48
+      - 科技网络🇺🇸_49
+      - 科技网络🇺🇸_5
+      - 科技网络🇺🇸_51
+      - 科技网络🇺🇸_53
+      - 科技网络🇺🇸_54
+      - 科技网络🇺🇸_55
+      - 科技网络🇺🇸_56
+      - 科技网络🇺🇸_57
+      - 科技网络🇺🇸_58
+      - 科技网络🇺🇸_59
+      - 科技网络🇺🇸_6
+      - 科技网络🇺🇸_60
+      - 科技网络🇺🇸_61
+      - 科技网络🇺🇸_62
+      - 科技网络🇺🇸_63
+      - 科技网络🇺🇸_64
+      - 科技网络🇺🇸_65
+      - 科技网络🇺🇸_66
+      - 科技网络🇺🇸_67
+      - 科技网络🇺🇸_68
+      - 科技网络🇺🇸_69
+      - 科技网络🇺🇸_7
+      - 科技网络🇺🇸_70
+      - 科技网络🇺🇸_71
+      - 科技网络🇺🇸_73
+      - 科技网络🇺🇸_75
+      - 科技网络🇺🇸_77
+      - 科技网络🇺🇸_78
+      - 科技网络🇺🇸_79
+      - 科技网络🇺🇸_80
+      - 科技网络🇺🇸_81
+      - 科技网络🇺🇸_82
+      - 科技网络🇺🇸_84
+      - 科技网络🇺🇸_86
+      - 科技网络🇺🇸_88
+      - 科技网络🇺🇸_89
+      - 科技网络🇺🇸_9
+      - 科技网络🇺🇸_90
+      - 科技网络🇺🇸_91
+      - 科技网络🇺🇸_92
+      - 科技网络🇺🇸_93
+      - 科技网络🇺🇸_94
+      - 科技网络🇺🇸_95
+      - 科技网络🇺🇸_96
+      - 科技网络🇺🇸_97
+      - 科技网络🇺🇸_98
+      - 科技网络🇺🇸_99
+  - name: 🔮 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 科技网络🇨🇦_30
+      - 科技网络🇨🇦_50
+      - 科技网络🇨🇦_52
+      - 科技网络🇨🇦_74
+      - 科技网络🇨🇦_76
+      - 科技网络🇨🇦_83
+      - 科技网络🇨🇦_85
+      - 科技网络🇨🇦_87
+      - 科技网络🇫🇷_130
+      - 科技网络🇫🇷_42
+      - 科技网络🇫🇷_72
+      - 科技网络🇭🇰_129
+      - 科技网络🇭🇰_22
+      - 科技网络🇭🇰_32
+      - 科技网络🇳🇱_101
+      - 科技网络🇳🇱_21
+      - 科技网络🇳🇱_3
+      - 科技网络🇳🇱_8
+      - 科技网络🇺🇸_1
+      - 科技网络🇺🇸_10
+      - 科技网络🇺🇸_100
+      - 科技网络🇺🇸_102
+      - 科技网络🇺🇸_103
+      - 科技网络🇺🇸_104
+      - 科技网络🇺🇸_105
+      - 科技网络🇺🇸_106
+      - 科技网络🇺🇸_107
+      - 科技网络🇺🇸_108
+      - 科技网络🇺🇸_109
+      - 科技网络🇺🇸_11
+      - 科技网络🇺🇸_110
+      - 科技网络🇺🇸_111
+      - 科技网络🇺🇸_112
+      - 科技网络🇺🇸_113
+      - 科技网络🇺🇸_114
+      - 科技网络🇺🇸_115
+      - 科技网络🇺🇸_116
+      - 科技网络🇺🇸_117
+      - 科技网络🇺🇸_118
+      - 科技网络🇺🇸_119
+      - 科技网络🇺🇸_12
+      - 科技网络🇺🇸_120
+      - 科技网络🇺🇸_121
+      - 科技网络🇺🇸_122
+      - 科技网络🇺🇸_123
+      - 科技网络🇺🇸_124
+      - 科技网络🇺🇸_125
+      - 科技网络🇺🇸_126
+      - 科技网络🇺🇸_127
+      - 科技网络🇺🇸_128
+      - 科技网络🇺🇸_13
+      - 科技网络🇺🇸_131
+      - 科技网络🇺🇸_132
+      - 科技网络🇺🇸_133
+      - 科技网络🇺🇸_134
+      - 科技网络🇺🇸_135
+      - 科技网络🇺🇸_136
+      - 科技网络🇺🇸_137
+      - 科技网络🇺🇸_138
+      - 科技网络🇺🇸_139
+      - 科技网络🇺🇸_14
+      - 科技网络🇺🇸_140
+      - 科技网络🇺🇸_141
+      - 科技网络🇺🇸_142
+      - 科技网络🇺🇸_143
+      - 科技网络🇺🇸_144
+      - 科技网络🇺🇸_145
+      - 科技网络🇺🇸_146
+      - 科技网络🇺🇸_147
+      - 科技网络🇺🇸_148
+      - 科技网络🇺🇸_149
+      - 科技网络🇺🇸_15
+      - 科技网络🇺🇸_150
+      - 科技网络🇺🇸_151
+      - 科技网络🇺🇸_152
+      - 科技网络🇺🇸_153
+      - 科技网络🇺🇸_154
+      - 科技网络🇺🇸_155
+      - 科技网络🇺🇸_16
+      - 科技网络🇺🇸_17
+      - 科技网络🇺🇸_18
+      - 科技网络🇺🇸_19
+      - 科技网络🇺🇸_2
+      - 科技网络🇺🇸_20
+      - 科技网络🇺🇸_23
+      - 科技网络🇺🇸_24
+      - 科技网络🇺🇸_25
+      - 科技网络🇺🇸_26
+      - 科技网络🇺🇸_27
+      - 科技网络🇺🇸_28
+      - 科技网络🇺🇸_29
+      - 科技网络🇺🇸_31
+      - 科技网络🇺🇸_33
+      - 科技网络🇺🇸_34
+      - 科技网络🇺🇸_35
+      - 科技网络🇺🇸_36
+      - 科技网络🇺🇸_37
+      - 科技网络🇺🇸_38
+      - 科技网络🇺🇸_39
+      - 科技网络🇺🇸_4
+      - 科技网络🇺🇸_40
+      - 科技网络🇺🇸_41
+      - 科技网络🇺🇸_43
+      - 科技网络🇺🇸_44
+      - 科技网络🇺🇸_45
+      - 科技网络🇺🇸_46
+      - 科技网络🇺🇸_47
+      - 科技网络🇺🇸_48
+      - 科技网络🇺🇸_49
+      - 科技网络🇺🇸_5
+      - 科技网络🇺🇸_51
+      - 科技网络🇺🇸_53
+      - 科技网络🇺🇸_54
+      - 科技网络🇺🇸_55
+      - 科技网络🇺🇸_56
+      - 科技网络🇺🇸_57
+      - 科技网络🇺🇸_58
+      - 科技网络🇺🇸_59
+      - 科技网络🇺🇸_6
+      - 科技网络🇺🇸_60
+      - 科技网络🇺🇸_61
+      - 科技网络🇺🇸_62
+      - 科技网络🇺🇸_63
+      - 科技网络🇺🇸_64
+      - 科技网络🇺🇸_65
+      - 科技网络🇺🇸_66
+      - 科技网络🇺🇸_67
+      - 科技网络🇺🇸_68
+      - 科技网络🇺🇸_69
+      - 科技网络🇺🇸_7
+      - 科技网络🇺🇸_70
+      - 科技网络🇺🇸_71
+      - 科技网络🇺🇸_73
+      - 科技网络🇺🇸_75
+      - 科技网络🇺🇸_77
+      - 科技网络🇺🇸_78
+      - 科技网络🇺🇸_79
+      - 科技网络🇺🇸_80
+      - 科技网络🇺🇸_81
+      - 科技网络🇺🇸_82
+      - 科技网络🇺🇸_84
+      - 科技网络🇺🇸_86
+      - 科技网络🇺🇸_88
+      - 科技网络🇺🇸_89
+      - 科技网络🇺🇸_9
+      - 科技网络🇺🇸_90
+      - 科技网络🇺🇸_91
+      - 科技网络🇺🇸_92
+      - 科技网络🇺🇸_93
+      - 科技网络🇺🇸_94
+      - 科技网络🇺🇸_95
+      - 科技网络🇺🇸_96
+      - 科技网络🇺🇸_97
+      - 科技网络🇺🇸_98
+      - 科技网络🇺🇸_99
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 💬 OpenAi
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🎥 奈飞节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 科技网络🇭🇰_129
+      - 科技网络🇭🇰_22
+      - 科技网络🇭🇰_32
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+    proxies:
+      - DIRECT
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🎥 奈飞节点
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
