@@ -80,11 +80,5 @@
             "url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json",
             "name": "😵巧技接口〔多条线路〕"
         }
-    ],
-    "vip": [
-        {
-            "url": "",
-            "name": "默认"
-        }
     ]
 }
