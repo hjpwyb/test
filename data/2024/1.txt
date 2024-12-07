@@ -1,0 +1,88 @@
+async function handleRequest(request) {
+  const url = new URL(request.url);
+  const basePath = "https://api.github.com/repos/hjpwyb/WYB/contents/data/test";
+
+  // 检查路径是否以 "/files/" 开头
+  if (url.pathname.startsWith("/files/")) {
+    // 去掉 "/files/"，获取实际的文件路径
+    const filePath = url.pathname.replace("/files/", "");
+
+    // 拼接完整的 GitHub API URL，获取目录内容
+    const githubAPIUrl = `${basePath}/${filePath ? filePath : ''}`;
+
+    try {
+      // 请求 GitHub API 获取文件夹内容
+      const response = await fetch(githubAPIUrl, {
+        method: request.method,
+        headers: request.headers,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+
+        // 判断返回的数据是文件还是文件夹
+        if (Array.isArray(data)) {
+          // 返回一个简单的 HTML 格式，列出目录中的文件
+          const filesList = data.map(item => {
+            if (item.type === 'file') {
+              return `<li><a href="/files/${filePath ? filePath + '/' : ''}${item.name}">${item.name}</a></li>`;
+            } else if (item.type === 'dir') {
+              return `<li><a href="/files/${filePath ? filePath + '/' : ''}${item.name}">${item.name}/</a></li>`;
+            }
+          }).join('');
+
+          // 返回目录列表的 HTML 页面，确保添加正确的字符集设置
+          return new Response(`
+            <html>
+              <head>
+                <meta charset="UTF-8">
+                <title>文件列表</title>
+              </head>
+              <body>
+                <h1>文件夹内容</h1>
+                <ul>
+                  ${filesList}
+                </ul>
+              </body>
+            </html>
+          `, {
+            headers: { 'Content-Type': 'text/html' }
+          });
+        } else {
+          // 如果是文件，解码 Base64 内容并返回
+          const content = data.content;
+          const decodedContent = atob(content);  // 解码 Base64 内容
+
+          // 使用 TextDecoder 解码为 UTF-8 字符串
+          try {
+            const decoder = new TextDecoder('utf-8'); // 明确指定为 utf-8 编码
+            const uint8Array = new Uint8Array(decodedContent.split('').map(c => c.charCodeAt(0)));
+            const decodedText = decoder.decode(uint8Array);
+
+            // 返回文件内容，设置合适的文件类型
+            return new Response(decodedText, {
+              headers: { 'Content-Type': 'text/plain; charset=UTF-8' }
+            });
+          } catch (err) {
+            // 如果出现解码错误，可以返回错误信息
+            return new Response("无法解码文件内容", { status: 500 });
+          }
+        }
+      } else {
+        // 如果请求失败，返回 404 错误
+        return new Response("文件或文件夹未找到", { status: 404 });
+      }
+    } catch (err) {
+      // 捕捉请求错误
+      return new Response("无法访问文件夹内容", { status: 500 });
+    }
+  }
+
+  // 如果路径不是 "/files/"，返回 404 错误
+  return new Response("404 Not Found", { status: 404 });
+}
+
+// 监听请求并处理
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request));
+});
