@@ -37,10 +37,10 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Replace all raw.githubusercontent.com URLs with new proxy"
-          git push origin HEAD:${{ github.ref_name }}
+          git commit -m "Replace all raw.githubusercontent.com URLs with new proxy" || echo "No changes to commit"
+          git push https://$PAT_TOKEN@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
