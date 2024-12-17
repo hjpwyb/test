@@ -1,78 +1,46 @@
-name: Replace URLs
+name: Replace Raw Content Links
 
 on:
-  workflow_dispatch: # 手动触发
-  push:               # 在代码库发生推送时触发
+  push:
     branches:
-      - main          # 替换为你的主要分支名称，如 master 或 main
+      - main # 在 main 分支进行操作，必要时调整
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   replace-urls:
     runs-on: ubuntu-latest
 
     steps:
-      # 检出代码库
-      - name: Check out the repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 设置 Python 环境
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      # 替换文件中的 URL
-      - name: Replace URLs
+      - name: Find and replace URLs
         run: |
-          # 安装必要工具
-          pip install --upgrade pip
+          # 定义目标目录
+          TARGET_DIR="./"
 
-          # 执行替换脚本
-          python - <<'EOF'
-          import os
-          import re
+          # 替换所有以 https://ghproxy.com/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
 
-          def replace_urls_in_file(file_path, url_mapping):
-              try:
-                  with open(file_path, 'r', encoding='utf-8') as file:
-                      content = file.read()
+          # 替换所有以 https://mirror.ghproxy.com/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://mirror.ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
 
-                  # 替换内容
-                  new_content = content
-                  for old_url, new_url in url_mapping.items():
-                      new_content = new_content.replace(old_url, new_url)
+          # 替换所有以 https://ghp.ci/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://ghp.ci/https://raw.githubusercontent.com/|http://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
 
-                  # 如果文件有变化，则更新
-                  if new_content != content:
-                      with open(file_path, 'w', encoding='utf-8') as file:
-                          file.write(new_content)
-                      print(f"Updated file: {file_path}")
-              except Exception as e:
-                  print(f"Error processing {file_path}: {e}")
+          # 替换所有没有加速前缀的 https://raw.githubusercontent.com/ 链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://raw.githubusercontent.com/|http://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
 
-          def replace_urls_in_folder(folder_path, url_mapping):
-              for root, _, files in os.walk(folder_path):
-                  for file_name in files:
-                      file_path = os.path.join(root, file_name)
-                      if file_path.endswith(('.txt', '.md', '.py', '.js', '.html', '.yaml', '.json', '.xml')):
-                          replace_urls_in_file(file_path, url_mapping)
-
-          # 替换映射表
-          url_mapping = {
-              "https://mirror.ghproxy.com/": "http://yubou.us.kg/",
-              "https://ghp.ci/": "http://yubou.us.kg/"
-          }
-
-          # 执行替换
-          repo_path = os.getcwd()
-          replace_urls_in_folder(repo_path, url_mapping)
-          EOF
-
-      # 提交更改
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Replace URLs in repository" || echo "No changes to commit"
-          git push
+          git commit -m "Replace all raw.githubusercontent.com URLs with new proxy"
+          git push origin HEAD:${{ github.ref_name }}
