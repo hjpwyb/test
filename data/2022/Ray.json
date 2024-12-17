@@ -5,14 +5,14 @@
         {
             "name": "IPV4",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
+            "url": "http://yubou.us.kg/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
             "playerType": 1,
             "logo": "https://live.fanmingming.com/tv/{name}.png"
         },
         {
             "name": "IPV6",
             "type": 0,
-            "url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+            "url": "http://yubou.us.kg/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
             "playerType": 1
         }
     ],
@@ -512,7 +512,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
             }
         },
         {
@@ -528,15 +528,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/biliych.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/biliych.json"
             }
         },
         {
             "key": "dr_兔小贝",
             "name": "儿童启蒙",
             "type": 3,
-            "api": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+            "api": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "ext": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -558,7 +558,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
             }
         },
         {
@@ -574,7 +574,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
             }
         },
         {
@@ -590,7 +590,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
             }
         },
         {
@@ -606,7 +606,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
+                "json": "http://yubou.us.kg/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
             }
         }
     ]
