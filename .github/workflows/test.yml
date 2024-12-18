@@ -36,8 +36,8 @@ jobs:
                   with open(file_path, 'r', encoding='utf-8') as file:
                       content = file.read()
 
-                  # 替换 http://yubou.us.kg/raw.githubusercontent.com 为 http://raw.githubusercontent.com
-                  new_content = content.replace("http://yubou.us.kg/raw.githubusercontent.com", "http://raw.githubusercontent.com")
+                  # 替换 https://yubou.us.kg/http://raw.githubusercontent.com 为 https://yubou.us.kg/https://raw.githubusercontent.com
+                  new_content = content.replace("https://yubou.us.kg/http://raw.githubusercontent.com", "https://yubou.us.kg/https://raw.githubusercontent.com")
 
                   # 如果文件有变化，则更新
                   if new_content != content:
