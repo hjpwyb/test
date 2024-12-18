@@ -113,7 +113,7 @@ recordable = 0  不記憶
 配置范例
 
 点播-线上
-http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/online.json
+https://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/online.json
 {
   "spider": "https://github.com/custom_spider.jar",
   "sites": [
@@ -148,7 +148,7 @@ http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/online
   ]
 }
 点播-本地
-http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/offline.json
+https://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/offline.json
 {
   "spider": "file://Download/custom_spider.jar",
   "sites": [
@@ -183,7 +183,7 @@ http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/vod/offlin
   ]
 }
 直播-线上
-http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/live/online.json
+https://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/live/online.json
 {
   "lives": [
     {
@@ -244,7 +244,7 @@ http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/live/onlin
   ]
 }
 直播-本地
-http://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/live/offline.json
+https://yubou.us.kg/https://github.com/FongMi/TV/blob/dev/other/sample/live/offline.json
 {
   "lives": [
     {
