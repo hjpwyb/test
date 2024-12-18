@@ -1,40 +1,40 @@
-name: Replace URLs in Repository
+name: Replace URLs in repository
 
-# 定义触发工作流的方式
 on:
-  workflow_dispatch:   # 手动触发
-  push:               # 或者可以通过 push 提交触发
+  push:
     branches:
-      - main          # 触发工作流的分支，通常为 main 或 master
+      - main  # 可以根据需要指定其他分支
 
 jobs:
   replace_urls:
-    runs-on: ubuntu-latest  # 使用最新版本的 Ubuntu 运行环境
+    runs-on: ubuntu-latest
 
     steps:
-    # 检出当前仓库代码
+    # Checkout the repository
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # 设置 Git 用户信息
+    # Set up git config
     - name: Set up Git user
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    # 替换仓库中的网址
-    - name: Replace URLs in files
+    # Replace URLs in all files
+    - name: Replace all raw.githubusercontent.com URLs with new proxy
       run: |
-        # 使用 sed 替换所有的原网址
-        find . -type f -exec sed -i 's|https://mirror.ghproxy.com/|http://yubou.us.kg/|g' {} \;
-        find . -type f -exec sed -i 's|https://ghp.ci/|http://yubou.us.kg/|g' {} \;
-        find . -type f -exec sed -i 's|https://raw.githubusercontent.com/|http://yubou.us.kg/|g' {} \;
+        # Replace all occurrences of the old proxy URLs with the new one
+        find . -type f -exec sed -i 's|https://ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
+        find . -type f -exec sed -i 's|https://mirror.ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
+        find . -type f -exec sed -i 's|https://ghp.ci/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
+        find . -type f -exec sed -i 's|https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
 
-    # 提交更改并推送到仓库
+    # Commit and push the changes
     - name: Commit and push changes
       run: |
         git add .
         git commit -m "Replace all raw.githubusercontent.com URLs with new proxy"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # 使用 GitHub Secrets 中的 Personal Access Token (PAT)
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 内置的 token 进行推送
+
