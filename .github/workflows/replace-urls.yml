@@ -59,8 +59,7 @@ jobs:
 
           # 替换映射表
           url_mapping = {
-              "https://mirror.ghproxy.com/": "http://yubou.us.kg/",
-              "https://ghp.ci/": "http://yubou.us.kg/"
+              "http://yubou.us.kg/": "https://yubou.us.kg/", 
           }
 
           # 执行替换
