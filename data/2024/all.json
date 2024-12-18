@@ -440,12 +440,12 @@
 {"url":"https://cdn.staticaly.com/gh/mmtekamu/tvbox/main/jiekou/18.json","name":"gh"},
 
 //https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/shichuanenhui/TvBox/main/flc.json
-{"name":"🔞蜂蜜","url":"https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"},
-{"name":"🔞高天","url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json"},
-{"name":"🔞猫影①","url":"https://raw.githubusercontent.com/watson1982/CatVodSpider/main/json/adult.json"},
-{"name":"🔞猫影②","url":"https://raw.githubusercontent.com/sathew/CatVodSpider/main/json/18.json"},
-{"name":"🔞二哈","url":"https://raw.githubusercontent.com/2hacc/TVBox/main/h/h.json"},
-{"name":"🔞猫影视","url":"https://raw.githubusercontent.com/shichuanenhui/TvBox/main/jav.json"},
+{"name":"🔞蜂蜜","url":"http://yubou.us.kg/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json"},
+{"name":"🔞高天","url":"http://yubou.us.kg/raw.githubusercontent.com/gaotianliuyun/gao/master/9918.json"},
+{"name":"🔞猫影①","url":"http://yubou.us.kg/raw.githubusercontent.com/watson1982/CatVodSpider/main/json/adult.json"},
+{"name":"🔞猫影②","url":"http://yubou.us.kg/raw.githubusercontent.com/sathew/CatVodSpider/main/json/18.json"},
+{"name":"🔞二哈","url":"http://yubou.us.kg/raw.githubusercontent.com/2hacc/TVBox/main/h/h.json"},
+{"name":"🔞猫影视","url":"http://yubou.us.kg/raw.githubusercontent.com/shichuanenhui/TvBox/main/jav.json"},
 {"name":"🔞成人","url":"https://fmjar.caioa.link/json/adult.json"},
 
 //https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/871796397/godling-tvbox/main/greenhanming.json
