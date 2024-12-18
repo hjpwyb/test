@@ -8,7 +8,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=https://ghproxy.com/https://raw.githubusercontent.com/123linyao123/TV/main/MiTV.txt"
+                        "proxy://do=live&type=txt&ext=https://ghproxy.com/http://yubou.us.kg/raw.githubusercontent.com/123linyao123/TV/main/MiTV.txt"
                     ]
                 }
             ]
