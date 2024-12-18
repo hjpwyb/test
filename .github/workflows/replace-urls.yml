@@ -1,39 +1,42 @@
-name: Replace URLs in repository
+name: Replace Raw Content Links
 
 on:
   push:
     branches:
-      - main  # 可以根据需要指定其他分支
+      - main # 在 main 分支进行操作，必要时调整
+  workflow_dispatch: # 允许手动触发
 
 jobs:
-  replace_urls:
+  replace-urls:
     runs-on: ubuntu-latest
 
     steps:
-    # Checkout the repository
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # Set up git config
-    - name: Set up Git user
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Find and replace URLs
+        run: |
+          # 定义目标目录
+          TARGET_DIR="./"
 
-    # Replace URLs in all files
-    - name: Replace all raw.githubusercontent.com URLs with new proxy
-      run: |
-        # Replace all occurrences of the old proxy URLs with the new one
-        find . -type f -exec sed -i 's|https://ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
-        find . -type f -exec sed -i 's|https://mirror.ghproxy.com/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
-        find . -type f -exec sed -i 's|https://ghp.ci/https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
-        find . -type f -exec sed -i 's|https://raw.githubusercontent.com/|http://yubou.us.kg/raw.githubusercontent.com/|g' {} \;
+          # 替换所有以 https://ghproxy.com/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://ghproxy.com/https://raw.githubusercontent.com/|https://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
 
-    # Commit and push the changes
-    - name: Commit and push changes
-      run: |
-        git add .
-        git commit -m "Replace all raw.githubusercontent.com URLs with new proxy"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 内置的 token 进行推
+          # 替换所有以 https://mirror.ghproxy.com/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://mirror.ghproxy.com/https://raw.githubusercontent.com/|https://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
+
+          # 替换所有以 https://ghp.ci/https://raw.githubusercontent.com/ 开头的链接
+          find $TARGET_DIR -type f -name "*" -exec sed -i \
+          's|https://ghp.ci/https://raw.githubusercontent.com/|https://yubou.us.kg/https://raw.githubusercontent.com/|g' {} +
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Replace outdated raw.githubusercontent.com URLs with new proxy"
+          git push origin HEAD:${{ github.ref_name }}
