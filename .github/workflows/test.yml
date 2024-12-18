@@ -2,9 +2,9 @@ name: Replace URLs
 
 on:
   workflow_dispatch: # 手动触发
-  push:               # 在代码库发生推送时触发
+  push:
     branches:
-      - main          # 替换为你的主要分支名称，如 master 或 main
+      - main  # 替换为你的主要分支名称，如 master 或 main
 
 jobs:
   replace-urls:
@@ -30,18 +30,14 @@ jobs:
           # 执行替换脚本
           python - <<'EOF'
           import os
-          import re
 
-          def replace_urls_in_file(file_path, url_mapping):
+          def replace_urls_in_file(file_path):
               try:
                   with open(file_path, 'r', encoding='utf-8') as file:
                       content = file.read()
 
-                  # 替换内容
-                  new_content = content
-                  for old_url, new_url in url_mapping.items():
-                      # 只替换没有加速网址前缀的 URL
-                      new_content = re.sub(r'(?<!https://yubou.us.kg/)' + re.escape(old_url), new_url, new_content)
+                  # 替换 http://yubou.us.kg/raw.githubusercontent.com 为 http://raw.githubusercontent.com
+                  new_content = content.replace("http://yubou.us.kg/raw.githubusercontent.com", "http://raw.githubusercontent.com")
 
                   # 如果文件有变化，则更新
                   if new_content != content:
@@ -51,21 +47,16 @@ jobs:
               except Exception as e:
                   print(f"Error processing {file_path}: {e}")
 
-          def replace_urls_in_folder(folder_path, url_mapping):
+          def replace_urls_in_folder(folder_path):
               for root, _, files in os.walk(folder_path):
                   for file_name in files:
                       file_path = os.path.join(root, file_name)
                       if file_path.endswith(('.txt', '.md', '.py', '.js', '.html', '.yaml', '.json', '.xml')):
-                          replace_urls_in_file(file_path, url_mapping)
-
-          # 替换映射表
-          url_mapping = {
-              "https://yubou.us.kg/raw.githubusercontent.com/": "https://raw.githubusercontent.com/"
-          }
+                          replace_urls_in_file(file_path)
 
           # 执行替换
           repo_path = os.getcwd()
-          replace_urls_in_folder(repo_path, url_mapping)
+          replace_urls_in_folder(repo_path)
           EOF
 
       # 提交更改
