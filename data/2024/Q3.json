@@ -1,262 +1,262 @@
 {
   "tvbox_data": [
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/000814.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/000814.txt",
       "type": "text",
       "description": "TXT file for some data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/001028.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/001028.txt",
       "type": "text",
       "description": "TXT file for some data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00315.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00315.txt",
       "type": "text",
       "description": "TXT file for some data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00814.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00814.txt",
       "type": "text",
       "description": "TXT file for some data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00DCbyTime.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00DCbyTime.json",
       "type": "json",
       "description": "JSON file for DC by time."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00Drama0515.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00Drama0515.json",
       "type": "json",
       "description": "JSON file for Drama list of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00FXZ.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00FXZ.txt",
       "type": "text",
       "description": "TXT file for FXZ data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00MarvelbyTime.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00MarvelbyTime.json",
       "type": "json",
       "description": "JSON file for Marvel by time."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00SP293.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00SP293.txt",
       "type": "text",
       "description": "TXT file for SP293 data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00Yimu.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00Yimu.txt",
       "type": "text",
       "description": "TXT file for Yimu data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00alist0515.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00alist0515.json",
       "type": "json",
       "description": "JSON file for alist of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00alist05155.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00alist05155.json",
       "type": "json",
       "description": "JSON file for alist of 05155."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00bili.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00bili.txt",
       "type": "text",
       "description": "TXT file for Bili data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00bili0515.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00bili0515.json",
       "type": "json",
       "description": "JSON file for Bili of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00bili05155.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00bili05155.json",
       "type": "json",
       "description": "JSON file for Bili of 05155."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00bili0814.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00bili0814.json",
       "type": "json",
       "description": "JSON file for Bili of 0814."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00bili1028.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00bili1028.json",
       "type": "json",
       "description": "JSON file for Bili of 1028."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00c.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00c.txt",
       "type": "text",
       "description": "TXT file for C data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00duo.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00duo.txt",
       "type": "text",
       "description": "TXT file for Duo data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00dybz.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00dybz.txt",
       "type": "text",
       "description": "TXT file for dybz data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00fongmi.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00fongmi.txt",
       "type": "text",
       "description": "TXT file for Fongmi data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00gao.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00gao.txt",
       "type": "text",
       "description": "TXT file for Gao data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00jundie.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00jundie.txt",
       "type": "text",
       "description": "TXT file for Jundie data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live0515.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live0515.txt",
       "type": "text",
       "description": "TXT file for Live data of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live05151.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live05151.txt",
       "type": "text",
       "description": "TXT file for Live data of 05151."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live05152.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live05152.txt",
       "type": "text",
       "description": "TXT file for Live data of 05152."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live05153.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live05153.txt",
       "type": "text",
       "description": "TXT file for Live data of 05153."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live05155.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live05155.txt",
       "type": "text",
       "description": "TXT file for Live data of 05155."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live051555.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live051555.txt",
       "type": "text",
       "description": "TXT file for Live data of 051555."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live0814.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live0814.txt",
       "type": "text",
       "description": "TXT file for Live data of 0814."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00live1028.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00live1028.txt",
       "type": "text",
       "description": "TXT file for Live data of 1028."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00moon.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00moon.txt",
       "type": "text",
       "description": "TXT file for Moon data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00s.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00s.txt",
       "type": "text",
       "description": "TXT file for S data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00sx.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00sx.txt",
       "type": "text",
       "description": "TXT file for SX data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00sx2.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00sx2.txt",
       "type": "text",
       "description": "TXT file for SX2 data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00title.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00title.json",
       "type": "json",
       "description": "JSON file for Title data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00title0515.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00title0515.json",
       "type": "json",
       "description": "JSON file for Title data of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00title05155.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00title05155.json",
       "type": "json",
       "description": "JSON file for Title data of 05155."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00title0814.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00title0814.json",
       "type": "json",
       "description": "JSON file for Title data of 0814."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00title1028.json",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00title1028.json",
       "type": "json",
       "description": "JSON file for Title data of 1028."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00tt0515.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00tt0515.txt",
       "type": "text",
       "description": "TXT file for TT data of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00tt0814.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00tt0814.txt",
       "type": "text",
       "description": "TXT file for TT data of 0814."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00tt1028.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00tt1028.txt",
       "type": "text",
       "description": "TXT file for TT data of 1028."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00v.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00v.txt",
       "type": "text",
       "description": "TXT file for V data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00v2.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00v2.txt",
       "type": "text",
       "description": "TXT file for V2 data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00video0515.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00video0515.txt",
       "type": "text",
       "description": "TXT file for Video data of 0515."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00video05155.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00video05155.txt",
       "type": "text",
       "description": "TXT file for Video data of 05155."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00video0814.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00video0814.txt",
       "type": "text",
       "description": "TXT file for Video data of 0814."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00video1028.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00video1028.txt",
       "type": "text",
       "description": "TXT file for Video data of 1028."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00x.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00x.txt",
       "type": "text",
       "description": "TXT file for X data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00xy.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00xy.txt",
       "type": "text",
       "description": "TXT file for XY data."
     },
     {
-      "url": "http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/00/main/00xy2.txt",
+      "url": "http://raw.githubusercontent.com/hjpwyb/00/main/00xy2.txt",
       "type": "text",
       "description": "TXT file for XY2 data."
     }

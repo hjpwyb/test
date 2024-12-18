@@ -1,28 +1,28 @@
 各种仓
 
-https://abszm.todemo.xyz/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/TvBox9/main/api.json
+https://abszm.todemo.xyz/http://raw.githubusercontent.com/hjpwyb/TvBox9/main/api.json
 
 CR
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/hako68/tv/main/cr.json
+https://yubou.us.kg/http://raw.githubusercontent.com/hako68/tv/main/cr.json
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/WYB/main/data/2023/test/cr.json
+https://yubou.us.kg/http://raw.githubusercontent.com/hjpwyb/WYB/main/data/2023/test/cr.json
 
 
 18CR
 
-https://abszm.todemo.xyz/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/TvBox11/main/18CR.json
+https://abszm.todemo.xyz/http://raw.githubusercontent.com/hjpwyb/TvBox11/main/18CR.json
 
 19
 
-https://abszm.todemo.xyz/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/TvBox11/main/19.json
+https://abszm.todemo.xyz/http://raw.githubusercontent.com/hjpwyb/TvBox11/main/19.json
 
 all
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/WYB/main/data/2023/test1/all.json
+https://yubou.us.kg/http://raw.githubusercontent.com/hjpwyb/WYB/main/data/2023/test1/all.json
 
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/wuheng18/cr/master/20221025/x1.txt
+https://yubou.us.kg/http://raw.githubusercontent.com/wuheng18/cr/master/20221025/x1.txt
 
 
 ALL
@@ -30,7 +30,7 @@ https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBdklGOWh3b3VlU3dxRDA3U1pQMVZh
 
 
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/hjpwyb/tvbox18/main/json/18_adult.txt
+https://yubou.us.kg/http://raw.githubusercontent.com/hjpwyb/tvbox18/main/json/18_adult.txt
 
 test8
 
@@ -208,7 +208,7 @@ https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdklGOWh3b3VlU3dtVU5XenBmb1ZJ
 
 真多
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/gggwang/tvbox/master/all.json
+https://yubou.us.kg/http://raw.githubusercontent.com/gggwang/tvbox/master/all.json
 
 
 豆瓣1
@@ -231,17 +231,17 @@ https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdklGOWh3b3VlU3dtVXlreTV1YUJr
 
 https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdklGOWh3b3VlU3dtVUJucEVma1l5NUlIVzhzP2U9S2hMa3VR
 
-https://abszm.todemo.xyz/http://yubou.us.kg/raw.githubusercontent.com/fish2018/tvbox/master/%F0%9F%8F%86%E8%9A%82%E8%9A%81%E7%AA%9D%E2%91%A0%F0%9F%8F%851.15%E6%9B%B4%E6%96%B0.json
+https://abszm.todemo.xyz/http://raw.githubusercontent.com/fish2018/tvbox/master/%F0%9F%8F%86%E8%9A%82%E8%9A%81%E7%AA%9D%E2%91%A0%F0%9F%8F%851.15%E6%9B%B4%E6%96%B0.json
 
 （豆多仓3）
 
 https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdklGOWh3b3VlU3dtVUVya3pmMERqc0F0ZEJ2P2U9R2ZuZnU0
 
-https://abszm.todemo.xyz/http://yubou.us.kg/raw.githubusercontent.com/fish2018/tvbox/master/%F0%9F%8F%86%E8%9A%82%E8%9A%81%E7%AA%9D%E2%91%A3%F0%9F%8F%85%E5%BE%85%E6%9B%B4.json
+https://abszm.todemo.xyz/http://raw.githubusercontent.com/fish2018/tvbox/master/%F0%9F%8F%86%E8%9A%82%E8%9A%81%E7%AA%9D%E2%91%A3%F0%9F%8F%85%E5%BE%85%E6%9B%B4.json
 
 豆多仓4
 
-https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/ZTHA000/tvbox/main/gyckname.json
+https://yubou.us.kg/http://raw.githubusercontent.com/ZTHA000/tvbox/main/gyckname.json
 
 
 

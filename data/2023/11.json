@@ -625,7 +625,7 @@
             "api": "csp_Miss",
             "searchable": 1,
             "filterable": 1,
-            "jar": "http://yubou.us.kg/raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945ad30d5255359385ba59b8fb061bb7"
+            "jar": "http://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945ad30d5255359385ba59b8fb061bb7"
         },
         {
             "key": "Supjav",

@@ -909,7 +909,7 @@
       "filterable": 0
     },
     {"key":"csp_qiepian_ASMR","name":"ASMR(qp)","type":1,"api":"http://www.asmr19.in/api.php/provide/vod/","searchable":1,"quickSearch":1},
-    {"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库(爬虫)","quickSearch":1,"searchable":1,"type":3,"jar":"https://ghproxy.com/http://yubou.us.kg/raw.githubusercontent.com/xiaomi128/opp/main/xxx.jar"},
+    {"api":"csp_Hsck","ext":"https://www.javsee.men/","filterable":0,"key":"csp_Hsck","name":"黄色仓库(爬虫)","quickSearch":1,"searchable":1,"type":3,"jar":"https://ghproxy.com/http://raw.githubusercontent.com/xiaomi128/opp/main/xxx.jar"},
     {"key":"*91麻豆","name":"*91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":0,"quickSearch":0},
     {"key":"*91麻豆②","name":"*91麻豆②","type":1,"api":"http://bt4.cc/api.php/provide/vod/from/mdm3u8/","tag":"qb,tj,rm","categories":[]},
     {"key":"*鲨鱼","name":"*鲨鱼","type":0,"api":"https://shayuapi.com/api.php/provide/vod/at/xml"},
@@ -1132,7 +1132,7 @@
 "wallpaper":"http://api.btstu.cn/sjbz/?lx=meizi",
 
 
-//spider:'http://yubou.us.kg/raw.githubusercontent.com/Guard-H/tvbox/main/jar/cc.jar',
+//spider:'http://raw.githubusercontent.com/Guard-H/tvbox/main/jar/cc.jar',
 //lives:[{group:'redirect',channels:[{name:'live',urls:['proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ=']}]}],
 
 //"lives":[{"group": "redirect","channels": [{"name": "redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuaXFpcS5pby9DeXJpbDA1NjMvbGFuamluZ19saXZlL21haW4vVFZib3hfRnJlZS9MSVZFL0ZyZWUvdHZib3hfbGl2ZS50eHQ="]}]}],

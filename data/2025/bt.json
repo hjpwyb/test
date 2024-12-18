@@ -4,11 +4,11 @@
             "key": "js_6V",
             "name": "✡️|六维|磁力",
             "type": 3,
-            "api": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/drpy2.js",
+            "api": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/drpy2.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/6V.js"
+            "ext": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/6V.js"
         },
 	          {
             "key": "XYQH_电影港",
@@ -16,15 +16,15 @@
             "type": 3,
             "playerType": 1,
             "api": "csp_XYQHiker",
-            "jar": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/spider.txt",
-            "ext": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/%E6%B8%AF%E5%8F%A3.json"
+            "jar": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/spider.txt",
+            "ext": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/%E6%B8%AF%E5%8F%A3.json"
         },
 	          {
             "key": "js_荐片",
             "name": "⏳|荐片|影视",
             "type": 3,
-            "api": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/drpy2.js",
-            "ext": "https://yubou.us.kg/http://yubou.us.kg/raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/%E8%8D%90%E7%89%87.js",
+            "api": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/drpy2.js",
+            "ext": "https://yubou.us.kg/http://raw.githubusercontent.com/niubihu1/tvbox-/main/js/xduo-main/libs/%E8%8D%90%E7%89%87.js",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
