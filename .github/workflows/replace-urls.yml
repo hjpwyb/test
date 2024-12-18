@@ -42,6 +42,9 @@ jobs:
                   for old_url, new_url in url_mapping.items():
                       new_content = new_content.replace(old_url, new_url)
 
+                  # 处理 https://raw.githubusercontent.com/ URL 添加加速网址
+                  new_content = re.sub(r'https://raw\.githubusercontent\.com/', r'http://yubou.us.kg/raw.githubusercontent.com/', new_content)
+
                   # 如果文件有变化，则更新
                   if new_content != content:
                       with open(file_path, 'w', encoding='utf-8') as file:
@@ -59,7 +62,8 @@ jobs:
 
           # 替换映射表
           url_mapping = {
-              "http://yubou.us.kg/": "https://yubou.us.kg/", 
+              "https://mirror.ghproxy.com/": "http://yubou.us.kg/",
+              "https://ghp.ci/": "http://yubou.us.kg/"
           }
 
           # 执行替换
