@@ -1,10 +1,13 @@
-name: Revert Changes
+name: Replace URLs
 
 on:
   workflow_dispatch: # 手动触发
+  push:               # 在代码库发生推送时触发
+    branches:
+      - main          # 替换为你的主要分支名称，如 master 或 main
 
 jobs:
-  revert-changes:
+  replace-urls:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,23 +15,64 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
-      # 设置 Git 配置
-      - name: Set Git configuration
+      # 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 替换文件中的 URL
+      - name: Replace URLs
+        run: |
+          # 安装必要工具
+          pip install --upgrade pip
+
+          # 执行替换脚本
+          python - <<'EOF'
+          import os
+          import re
+
+          def replace_urls_in_file(file_path, url_mapping):
+              try:
+                  with open(file_path, 'r', encoding='utf-8') as file:
+                      content = file.read()
+
+                  # 替换内容
+                  new_content = content
+                  for old_url, new_url in url_mapping.items():
+                      # 只替换没有加速网址前缀的 URL
+                      new_content = re.sub(r'(?<!https://yubou.us.kg/)' + re.escape(old_url), new_url, new_content)
+
+                  # 如果文件有变化，则更新
+                  if new_content != content:
+                      with open(file_path, 'w', encoding='utf-8') as file:
+                          file.write(new_content)
+                      print(f"Updated file: {file_path}")
+              except Exception as e:
+                  print(f"Error processing {file_path}: {e}")
+
+          def replace_urls_in_folder(folder_path, url_mapping):
+              for root, _, files in os.walk(folder_path):
+                  for file_name in files:
+                      file_path = os.path.join(root, file_name)
+                      if file_path.endswith(('.txt', '.md', '.py', '.js', '.html', '.yaml', '.json', '.xml')):
+                          replace_urls_in_file(file_path, url_mapping)
+
+          # 替换映射表
+          url_mapping = {
+              "https://raw.githubusercontent.com/": "https://yubou.us.kg/raw.githubusercontent.com/"
+          }
+
+          # 执行替换
+          repo_path = os.getcwd()
+          replace_urls_in_folder(repo_path, url_mapping)
+          EOF
+
+      # 提交更改
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 获取提交历史并输出
-      - name: Show git history
-        run: |
-          git log --oneline # 查看提交历史并验证哈希值
-
-      # 可选：如果提交哈希不正确，可以选择回滚至最近的提交
-      - name: Reset to last good commit
-        run: |
-          git reset --hard HEAD~1  # 如果哈希无效，回退至上一个提交
-
-      # 提交并推送更改
-      - name: Commit and push changes
-        run: |
-          git push --force
+          git add .
+          git commit -m "Replace URLs in repository" || echo "No changes to commit"
+          git push
