@@ -21,15 +21,14 @@ jobs:
       # 获取提交历史并输出
       - name: Show git history
         run: |
-          git log --oneline
+          git log --oneline # 查看提交历史并验证哈希值
 
-      # 撤销更改
-      - name: Revert to specific commit
+      # 可选：如果提交哈希不正确，可以选择回滚至最近的提交
+      - name: Reset to last good commit
         run: |
-          # 使用指定的提交哈希恢复
-          git reset --hard ee993158f6e859fa63fb02a42e7a7edda9ab48a5
+          git reset --hard HEAD~1  # 如果哈希无效，回退至上一个提交
 
-      # 提交并推送回 GitHub
+      # 提交并推送更改
       - name: Commit and push changes
         run: |
           git push --force
