@@ -1,0 +1,30 @@
+name: Revert Changes
+
+on:
+  workflow_dispatch: # 手动触发
+
+jobs:
+  revert-changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码库
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      # 设置 Git 配置
+      - name: Set Git configuration
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 撤销更改
+      - name: Revert to previous commit
+        run: |
+          # 获取最新的提交哈希
+          git reset --hard HEAD~1  # 退回到上一个提交
+
+      # 提交并推送回 GitHub
+      - name: Commit and push changes
+        run: |
+          git push --force
