@@ -60,7 +60,7 @@ jobs:
 
           # 替换映射表
           url_mapping = {
-              "https://raw.githubusercontent.com/": "https://yubou.us.kg/raw.githubusercontent.com/"
+              "https://yubou.us.kg/raw.githubusercontent.com/": "https://raw.githubusercontent.com/"
           }
 
           # 执行替换
