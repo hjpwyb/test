@@ -808,14 +808,14 @@
             }
         },
         {
-            "key": "csp_XYQHiker_字幕仓库",
-            "name": "🔞字幕仓库✈️🔗(XYQHiker)",
+            "key": "csp_XYQHiker_黄色仓库",
+            "name": "🔞黄色仓库✈️🔗(XYQHiker)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv/XYQHiker/%E5%AD%97%E5%B9%95%E4%BB%93%E5%BA%93.json",
+            "ext": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv/XYQHiker/黄色仓库.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.6
