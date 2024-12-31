@@ -849,8 +849,23 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.6
+            }  
+         },
+         { 
+           {
+            "key": "csp_XYQHiker_黄色仓库啦",
+            "name": "🔞黄色仓库啦✈️🔗(XYQHiker)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv/XYQHiker/黄色仓库啦.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
             }
-        },
+        },     
         {
             "key": "csp_XYQHiker_黄色仓库123",
             "name": "🔞黄色仓库123✈️🔗(XYQHiker)",
@@ -902,20 +917,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv/XYQHiker/黄色仓库456.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
-        {
-            "key": "csp_XYQHiker_黄色仓库啦",
-            "name": "🔞黄色仓库啦✈️🔗(XYQHiker)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv/XYQHiker/黄色仓库啦.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.6
