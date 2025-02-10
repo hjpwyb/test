@@ -1,7 +1,15 @@
 {
     "urls": [
         {
-            "name": "🚚运输车",
+            "name": "🚚运输车1",
+            "url": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tvboxzonghe.json"
+        },
+        {
+            "name": "🚚运输车2",
+            "url": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/yuan/refs/heads/main/tv3.json"
+        },
+        {
+            "name": "🚚运输车3",
             "url": "https://weixine.net/ysc.json"
         },
         {
