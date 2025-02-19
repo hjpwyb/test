@@ -97,6 +97,8 @@
                 "ratio": 1.6
             }
         },
+        {"key":"vv004","name":"️👙點播👙","type":4,"api":"https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/00/refs/heads/main/api/00title05155.json","searchable":0,"quickSearch":0,"filterable":0},
+
         {
             "key": "艾蛋影视",
             "name": "艾蛋影视",
