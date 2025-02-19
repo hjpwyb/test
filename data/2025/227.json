@@ -100,7 +100,7 @@
         {
             "key": "vv004",
             "name": "️👙點播👙",
-            "type": 4,
+            "type": 1,
             "api": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/00/refs/heads/main/api/00title05155.json",
             "searchable": 0,
             "quickSearch": 0,
