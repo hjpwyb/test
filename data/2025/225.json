@@ -102,9 +102,10 @@
             "name": "️👙點播👙",
             "type": 1,
             "api": "https://yubou.us.kg/https://raw.githubusercontent.com/hjpwyb/00/refs/heads/main/api/00title05155.json",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1
         },
         {
             "key": "艾蛋影视",
