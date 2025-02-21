@@ -1,0 +1,152 @@
+{
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/0630.json",
+            "name": "0630.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/07044.json",
+            "name": "07044.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/0706-bak.json",
+            "name": "0706-bak.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/0706.json",
+            "name": "0706.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/2022073001.json",
+            "name": "2022073001.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/260.json",
+            "name": "260.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/2K24.json",
+            "name": "2K24.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/350_195645_ali.json",
+            "name": "350_195645_ali.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/4k.json",
+            "name": "4k.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/CKS2000.json",
+            "name": "CKS2000.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/Mao0820.json",
+            "name": "Mao0820.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/TVBOX-0628.json",
+            "name": "TVBOX-0628.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/alitoken.txt",
+            "name": "alitoken.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/bc-0704.json",
+            "name": "bc-0704.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/box.json",
+            "name": "box.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/cks0719.json",
+            "name": "cks0719.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/cks2K.json",
+            "name": "cks2K.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/cks2K01.txt",
+            "name": "cks2K01.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/cksT3.txt",
+            "name": "cksT3.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/fuli.json",
+            "name": "fuli.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/miaotv.txt",
+            "name": "miaotv.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/mt888.json",
+            "name": "mt888.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/nite0827.txt",
+            "name": "nite0827.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/pluto2K.json",
+            "name": "pluto2K.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/qiaoji8.json",
+            "name": "qiaoji8.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/qj0719.json",
+            "name": "qj0719.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/sun.json",
+            "name": "sun.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/sunny.txt",
+            "name": "sunny.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/test-T3.txt",
+            "name": "test-T3.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/test.txt",
+            "name": "test.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/test2.txt",
+            "name": "test2.txt"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/top94.json",
+            "name": "top94.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/top95.json",
+            "name": "top95.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/top97.json",
+            "name": "top97.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/ts0701.json",
+            "name": "ts0701.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/ts0709.json",
+            "name": "ts0709.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/franksun1211/TVBOX/refs/heads/main/uav0.json",
+            "name": "uav0.json"
+        }
+    ]
+}
