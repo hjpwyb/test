@@ -1,0 +1,106 @@
+{
+  "list": [
+    {
+      "title": "独播社",
+      "url": "http://35ys.cc/api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo1.png"
+    },
+    {
+      "title": "飓风影视",
+      "url": "http://jf.35ys.cc/lehailb_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo2.png"
+    },
+    {
+      "title": "瑞丰影视",
+      "url": "http://121.204.249.135:4433/ruifenglb_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo3.png"
+    },
+    {
+      "title": "皮皮兔",
+      "url": "https://v.pipitu.top/xgapp.php/v2/",
+      "type": "video",
+      "logo": "https://example.com/logo4.png"
+    },
+    {
+      "title": "爱酷影视",
+      "url": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo5.png"
+    },
+    {
+      "title": "零刻影院",
+      "url": "https://ys.ling00.cn/api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo6.png"
+    },
+    {
+      "title": "段友影视2",
+      "url": "https://shangjihuoke.com/api.php/tv.vod",
+      "type": "tv",
+      "logo": "https://example.com/logo7.png"
+    },
+    {
+      "title": "奈非迷",
+      "url": "https://app.netflixmi.com/api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo8.png"
+    },
+    {
+      "title": "粉象视界",
+      "url": "http://42.157.129.15:34444/lvdou_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo9.png"
+    },
+    {
+      "title": "影阅阁",
+      "url": "http://221.236.18.12:665/api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo10.png"
+    },
+    {
+      "title": "迪迪影院",
+      "url": "http://dd88.icu:6080/xgapp.php/v2/",
+      "type": "video",
+      "logo": "https://example.com/logo11.png"
+    },
+    {
+      "title": "CC影视",
+      "url": "https://ccbug.cc/lvdou_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo12.png"
+    },
+    {
+      "title": "百淘影视2",
+      "url": "http://ys.58g8.com/lvdou_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo13.png"
+    },
+    {
+      "title": "寒枫视频",
+      "url": "https://vip.shenyunwl.cn/mogai_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo14.png"
+    },
+    {
+      "title": "筋斗云",
+      "url": "https://tv.jindcloud.com/api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo15.png"
+    },
+    {
+      "title": "看看视频",
+      "url": "http://888.ccboke.top/ruifenglb_api.php/v1.vod",
+      "type": "video",
+      "logo": "https://example.com/logo16.png"
+    },
+    {
+      "title": "双鹿影院",
+      "url": "http://cr.slidc.top/mubai_api.php/m2.vod",
+      "type": "tv",
+      "logo": "https://example.com/logo17.png"
+    }
+  ]
+}
